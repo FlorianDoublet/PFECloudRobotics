@@ -61,6 +61,7 @@ public class Lego_mindstom_ntx2ItemProvider extends ResourceItemProvider {
 			addNamePropertyDescriptor(object);
 			addAnglePropertyDescriptor(object);
 			addMove_speedPropertyDescriptor(object);
+			addMac_addressPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -132,6 +133,28 @@ public class Lego_mindstom_ntx2ItemProvider extends ResourceItemProvider {
 	}
 
 	/**
+	 * This adds a property descriptor for the Mac address feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addMac_addressPropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_Lego_mindstom_ntx2_mac_address_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Lego_mindstom_ntx2_mac_address_feature", "_UI_Lego_mindstom_ntx2_type"),
+				 Lego_mindstormPackage.Literals.LEGO_MINDSTOM_NTX2__MAC_ADDRESS,
+				 true,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+				 null,
+				 null));
+	}
+
+	/**
 	 * This returns Lego_mindstom_ntx2.gif.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -172,6 +195,7 @@ public class Lego_mindstom_ntx2ItemProvider extends ResourceItemProvider {
 			case Lego_mindstormPackage.LEGO_MINDSTOM_NTX2__NAME:
 			case Lego_mindstormPackage.LEGO_MINDSTOM_NTX2__ANGLE:
 			case Lego_mindstormPackage.LEGO_MINDSTOM_NTX2__MOVE_SPEED:
+			case Lego_mindstormPackage.LEGO_MINDSTOM_NTX2__MAC_ADDRESS:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;
 		}

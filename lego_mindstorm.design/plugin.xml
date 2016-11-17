@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+  <extension point="org.eclipse.sirius.componentization">
+    <component class="lego_mindstorm.design.Activator"
+               id="lego_mindstorm.design"
+	       name="lego_mindstorm">
+    </component>
+  </extension>
+   <!-- Popup menu for creating a lego_mindstorm configuration file. -->
+   <extension point="org.eclipse.ui.newWizards">
+      <category
+            id="org.occiware.clouddesigner.category.ID"
+            name="Cloud Designer"/>
+      <wizard
+            category="org.occiware.clouddesigner.category.ID"
+            class="lego_mindstorm.design.wizard.NewConfigurationWizard"
+            icon="platform:/plugin/org.occiware.clouddesigner.occi.edit/icons/full/obj16/Configuration.gif"
+            id="lego_mindstorm.design.wizard.NewConfigurationWizard"
+            name="lego_mindstorm Configuration File"/>
+   </extension>
+</plugin>

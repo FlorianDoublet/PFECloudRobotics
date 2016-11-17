@@ -16,6 +16,8 @@ package ar_drone.connector;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.codeminders.ardrone.ARDrone;
+
 
 /**
  * Connector implementation for the OCCI kind:
@@ -29,6 +31,9 @@ public class Ar_droneConnector extends ar_drone.impl.Ar_droneImpl
 	 * Initialize the logger.
 	 */
 	private static Logger LOGGER = LoggerFactory.getLogger(Ar_droneConnector.class);
+	private static int CONNECT_TIMEOUT = 3000; //3 sec
+	private ARDrone drone;
+	
 
 	/**
 	 * Constructs a ar_drone connector.
@@ -36,6 +41,7 @@ public class Ar_droneConnector extends ar_drone.impl.Ar_droneImpl
 	Ar_droneConnector()
 	{
 		LOGGER.debug("Constructor called on " + this);
+		
 	}
 
 	//
@@ -51,6 +57,12 @@ public class Ar_droneConnector extends ar_drone.impl.Ar_droneImpl
 		LOGGER.debug("occiCreate() called on " + this);
 
 		// TODO: Implement this callback or remove this method.
+		//create the object drone
+		drone = new ARDrone(); 
+		drone.connect();
+		drone.clearEmergencySignal();
+		drone.waitForReady(CONNECT_TIMEOUT);
+		drone.trim();
 	}
 
 	/**
@@ -100,6 +112,7 @@ public class Ar_droneConnector extends ar_drone.impl.Ar_droneImpl
 	public void move()
 	{
 		LOGGER.debug("Action move() called on " + this);
+		drone.move(this.name);
 
 		// TODO: Implement how to move this ar_drone.
 	}

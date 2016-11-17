@@ -3,7 +3,8 @@ Bundle-ManifestVersion: 2
 Bundle-Name: lego_mindstorm.connector
 Bundle-SymbolicName: lego_mindstorm.connector;singleton:=true
 Bundle-Version: 0.1.0.qualifier
-Bundle-ClassPath: .
+Bundle-ClassPath: .,
+ lib/MindstormControl.jar
 Bundle-Vendor: OCCIware
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-ActivationPolicy: lazy

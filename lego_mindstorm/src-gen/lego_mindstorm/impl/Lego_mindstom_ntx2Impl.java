@@ -37,6 +37,7 @@ import org.occiware.clouddesigner.occi.impl.ResourceImpl;
  *   <li>{@link lego_mindstorm.impl.Lego_mindstom_ntx2Impl#getName <em>Name</em>}</li>
  *   <li>{@link lego_mindstorm.impl.Lego_mindstom_ntx2Impl#getAngle <em>Angle</em>}</li>
  *   <li>{@link lego_mindstorm.impl.Lego_mindstom_ntx2Impl#getMove_speed <em>Move speed</em>}</li>
+ *   <li>{@link lego_mindstorm.impl.Lego_mindstom_ntx2Impl#getMac_address <em>Mac address</em>}</li>
  * </ul>
  *
  * @generated
@@ -101,6 +102,26 @@ public class Lego_mindstom_ntx2Impl extends ResourceImpl implements Lego_mindsto
 	 * @ordered
 	 */
 	protected int move_speed = MOVE_SPEED_EDEFAULT;
+
+	/**
+	 * The default value of the '{@link #getMac_address() <em>Mac address</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getMac_address()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final String MAC_ADDRESS_EDEFAULT = null;
+
+	/**
+	 * The cached value of the '{@link #getMac_address() <em>Mac address</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getMac_address()
+	 * @generated
+	 * @ordered
+	 */
+	protected String mac_address = MAC_ADDRESS_EDEFAULT;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -189,6 +210,27 @@ public class Lego_mindstom_ntx2Impl extends ResourceImpl implements Lego_mindsto
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public String getMac_address() {
+		return mac_address;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public void setMac_address(String newMac_address) {
+		String oldMac_address = mac_address;
+		mac_address = newMac_address;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, Lego_mindstormPackage.LEGO_MINDSTOM_NTX2__MAC_ADDRESS, oldMac_address, mac_address));
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public void move_forward() {
 		// TODO: implement this method
 		// Ensure that you remove @generated or mark it @generated NOT
@@ -244,6 +286,28 @@ public class Lego_mindstom_ntx2Impl extends ResourceImpl implements Lego_mindsto
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public void exit() {
+		// TODO: implement this method
+		// Ensure that you remove @generated or mark it @generated NOT
+		throw new UnsupportedOperationException();
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public void connection() {
+		// TODO: implement this method
+		// Ensure that you remove @generated or mark it @generated NOT
+		throw new UnsupportedOperationException();
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	@Override
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
@@ -253,6 +317,8 @@ public class Lego_mindstom_ntx2Impl extends ResourceImpl implements Lego_mindsto
 				return getAngle();
 			case Lego_mindstormPackage.LEGO_MINDSTOM_NTX2__MOVE_SPEED:
 				return getMove_speed();
+			case Lego_mindstormPackage.LEGO_MINDSTOM_NTX2__MAC_ADDRESS:
+				return getMac_address();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -273,6 +339,9 @@ public class Lego_mindstom_ntx2Impl extends ResourceImpl implements Lego_mindsto
 				return;
 			case Lego_mindstormPackage.LEGO_MINDSTOM_NTX2__MOVE_SPEED:
 				setMove_speed((Integer)newValue);
+				return;
+			case Lego_mindstormPackage.LEGO_MINDSTOM_NTX2__MAC_ADDRESS:
+				setMac_address((String)newValue);
 				return;
 		}
 		super.eSet(featureID, newValue);
@@ -295,6 +364,9 @@ public class Lego_mindstom_ntx2Impl extends ResourceImpl implements Lego_mindsto
 			case Lego_mindstormPackage.LEGO_MINDSTOM_NTX2__MOVE_SPEED:
 				setMove_speed(MOVE_SPEED_EDEFAULT);
 				return;
+			case Lego_mindstormPackage.LEGO_MINDSTOM_NTX2__MAC_ADDRESS:
+				setMac_address(MAC_ADDRESS_EDEFAULT);
+				return;
 		}
 		super.eUnset(featureID);
 	}
@@ -313,6 +385,8 @@ public class Lego_mindstom_ntx2Impl extends ResourceImpl implements Lego_mindsto
 				return angle != ANGLE_EDEFAULT;
 			case Lego_mindstormPackage.LEGO_MINDSTOM_NTX2__MOVE_SPEED:
 				return move_speed != MOVE_SPEED_EDEFAULT;
+			case Lego_mindstormPackage.LEGO_MINDSTOM_NTX2__MAC_ADDRESS:
+				return MAC_ADDRESS_EDEFAULT == null ? mac_address != null : !MAC_ADDRESS_EDEFAULT.equals(mac_address);
 		}
 		return super.eIsSet(featureID);
 	}
@@ -340,6 +414,12 @@ public class Lego_mindstom_ntx2Impl extends ResourceImpl implements Lego_mindsto
 			case Lego_mindstormPackage.LEGO_MINDSTOM_NTX2___STOP_MOVE:
 				stop_move();
 				return null;
+			case Lego_mindstormPackage.LEGO_MINDSTOM_NTX2___EXIT:
+				exit();
+				return null;
+			case Lego_mindstormPackage.LEGO_MINDSTOM_NTX2___CONNECTION:
+				connection();
+				return null;
 		}
 		return super.eInvoke(operationID, arguments);
 	}
@@ -360,6 +440,8 @@ public class Lego_mindstom_ntx2Impl extends ResourceImpl implements Lego_mindsto
 		result.append(angle);
 		result.append(", move_speed: ");
 		result.append(move_speed);
+		result.append(", mac_address: ");
+		result.append(mac_address);
 		result.append(')');
 		return result.toString();
 	}

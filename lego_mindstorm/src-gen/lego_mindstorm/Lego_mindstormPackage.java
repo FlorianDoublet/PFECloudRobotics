@@ -168,13 +168,22 @@ public interface Lego_mindstormPackage extends EPackage {
 	int LEGO_MINDSTOM_NTX2__MOVE_SPEED = OCCIPackage.RESOURCE_FEATURE_COUNT + 2;
 
 	/**
+	 * The feature id for the '<em><b>Mac address</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int LEGO_MINDSTOM_NTX2__MAC_ADDRESS = OCCIPackage.RESOURCE_FEATURE_COUNT + 3;
+
+	/**
 	 * The number of structural features of the '<em>Lego mindstom ntx2</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int LEGO_MINDSTOM_NTX2_FEATURE_COUNT = OCCIPackage.RESOURCE_FEATURE_COUNT + 3;
+	int LEGO_MINDSTOM_NTX2_FEATURE_COUNT = OCCIPackage.RESOURCE_FEATURE_COUNT + 4;
 
 	/**
 	 * The operation id for the '<em>Occi Create</em>' operation.
@@ -258,13 +267,31 @@ public interface Lego_mindstormPackage extends EPackage {
 	int LEGO_MINDSTOM_NTX2___STOP_MOVE = OCCIPackage.RESOURCE_OPERATION_COUNT + 4;
 
 	/**
+	 * The operation id for the '<em>Exit</em>' operation.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int LEGO_MINDSTOM_NTX2___EXIT = OCCIPackage.RESOURCE_OPERATION_COUNT + 5;
+
+	/**
+	 * The operation id for the '<em>Connection</em>' operation.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int LEGO_MINDSTOM_NTX2___CONNECTION = OCCIPackage.RESOURCE_OPERATION_COUNT + 6;
+
+	/**
 	 * The number of operations of the '<em>Lego mindstom ntx2</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int LEGO_MINDSTOM_NTX2_OPERATION_COUNT = OCCIPackage.RESOURCE_OPERATION_COUNT + 5;
+	int LEGO_MINDSTOM_NTX2_OPERATION_COUNT = OCCIPackage.RESOURCE_OPERATION_COUNT + 7;
 
 
 	/**
@@ -309,6 +336,17 @@ public interface Lego_mindstormPackage extends EPackage {
 	 * @generated
 	 */
 	EAttribute getLego_mindstom_ntx2_Move_speed();
+
+	/**
+	 * Returns the meta object for the attribute '{@link lego_mindstorm.Lego_mindstom_ntx2#getMac_address <em>Mac address</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Mac address</em>'.
+	 * @see lego_mindstorm.Lego_mindstom_ntx2#getMac_address()
+	 * @see #getLego_mindstom_ntx2()
+	 * @generated
+	 */
+	EAttribute getLego_mindstom_ntx2_Mac_address();
 
 	/**
 	 * Returns the meta object for the '{@link lego_mindstorm.Lego_mindstom_ntx2#move_forward() <em>Move forward</em>}' operation.
@@ -359,6 +397,26 @@ public interface Lego_mindstormPackage extends EPackage {
 	 * @generated
 	 */
 	EOperation getLego_mindstom_ntx2__Stop_move();
+
+	/**
+	 * Returns the meta object for the '{@link lego_mindstorm.Lego_mindstom_ntx2#exit() <em>Exit</em>}' operation.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the '<em>Exit</em>' operation.
+	 * @see lego_mindstorm.Lego_mindstom_ntx2#exit()
+	 * @generated
+	 */
+	EOperation getLego_mindstom_ntx2__Exit();
+
+	/**
+	 * Returns the meta object for the '{@link lego_mindstorm.Lego_mindstom_ntx2#connection() <em>Connection</em>}' operation.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the '<em>Connection</em>' operation.
+	 * @see lego_mindstorm.Lego_mindstom_ntx2#connection()
+	 * @generated
+	 */
+	EOperation getLego_mindstom_ntx2__Connection();
 
 	/**
 	 * Returns the factory that creates the instances of the model.
@@ -418,6 +476,14 @@ public interface Lego_mindstormPackage extends EPackage {
 		EAttribute LEGO_MINDSTOM_NTX2__MOVE_SPEED = eINSTANCE.getLego_mindstom_ntx2_Move_speed();
 
 		/**
+		 * The meta object literal for the '<em><b>Mac address</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute LEGO_MINDSTOM_NTX2__MAC_ADDRESS = eINSTANCE.getLego_mindstom_ntx2_Mac_address();
+
+		/**
 		 * The meta object literal for the '<em><b>Move forward</b></em>' operation.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
@@ -456,6 +522,22 @@ public interface Lego_mindstormPackage extends EPackage {
 		 * @generated
 		 */
 		EOperation LEGO_MINDSTOM_NTX2___STOP_MOVE = eINSTANCE.getLego_mindstom_ntx2__Stop_move();
+
+		/**
+		 * The meta object literal for the '<em><b>Exit</b></em>' operation.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EOperation LEGO_MINDSTOM_NTX2___EXIT = eINSTANCE.getLego_mindstom_ntx2__Exit();
+
+		/**
+		 * The meta object literal for the '<em><b>Connection</b></em>' operation.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EOperation LEGO_MINDSTOM_NTX2___CONNECTION = eINSTANCE.getLego_mindstom_ntx2__Connection();
 
 	}
 

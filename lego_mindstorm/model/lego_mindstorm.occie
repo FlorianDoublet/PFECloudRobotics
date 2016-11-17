@@ -2,7 +2,7 @@
 <occi:Extension xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:occi="http://schemas.ogf.org/occi/core/ecore" name="lego_mindstorm" scheme="http://occiware.org/lego_mindstorm#">
   <import href="http://schemas.ogf.org/occi/core#/"/>
   <kinds term="lego_mindstom_ntx2" scheme="http://occiware.org/lego_mindstorm#">
-    <attributes name="name">
+    <attributes name="name" required="true">
       <type href="http://schemas.ogf.org/occi/core#//@types.0"/>
     </attributes>
     <attributes name="angle">
@@ -11,11 +11,16 @@
     <attributes name="move_speed">
       <type href="http://schemas.ogf.org/occi/core#//@types.2"/>
     </attributes>
+    <attributes name="mac_address" required="true">
+      <type href="http://schemas.ogf.org/occi/core#//@types.0"/>
+    </attributes>
     <parent href="http://schemas.ogf.org/occi/core#//@kinds[term='resource']"/>
     <actions term="move_forward" scheme="http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#" title="Move forward"/>
     <actions term="move_backward" scheme="http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#" title="Move backward"/>
     <actions term="rotate_right" scheme="http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#" title="Rotate right"/>
     <actions term="rotate_left" scheme="http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#" title="Rotate left"/>
     <actions term="stop_move" scheme="http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#" title="Stop move"/>
+    <actions term="exit" scheme="http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#" title="Close connection"/>
+    <actions term="connection" scheme="http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#" title="Connect to the drone"/>
   </kinds>
 </occi:Extension>

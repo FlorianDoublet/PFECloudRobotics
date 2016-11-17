@@ -25,6 +25,7 @@ import org.occiware.clouddesigner.occi.Resource;
  *   <li>{@link lego_mindstorm.Lego_mindstom_ntx2#getName <em>Name</em>}</li>
  *   <li>{@link lego_mindstorm.Lego_mindstom_ntx2#getAngle <em>Angle</em>}</li>
  *   <li>{@link lego_mindstorm.Lego_mindstom_ntx2#getMove_speed <em>Move speed</em>}</li>
+ *   <li>{@link lego_mindstorm.Lego_mindstom_ntx2#getMac_address <em>Mac address</em>}</li>
  * </ul>
  *
  * @see lego_mindstorm.Lego_mindstormPackage#getLego_mindstom_ntx2()
@@ -43,7 +44,7 @@ public interface Lego_mindstom_ntx2 extends Resource {
 	 * @return the value of the '<em>Name</em>' attribute.
 	 * @see #setName(String)
 	 * @see lego_mindstorm.Lego_mindstormPackage#getLego_mindstom_ntx2_Name()
-	 * @model dataType="org.occiware.clouddesigner.occi.String"
+	 * @model dataType="org.occiware.clouddesigner.occi.String" required="true"
 	 *        annotation="OCCIE2Ecore description='null'"
 	 * @generated
 	 */
@@ -114,6 +115,33 @@ public interface Lego_mindstom_ntx2 extends Resource {
 	void setMove_speed(int value);
 
 	/**
+	 * Returns the value of the '<em><b>Mac address</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Mac address</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Mac address</em>' attribute.
+	 * @see #setMac_address(String)
+	 * @see lego_mindstorm.Lego_mindstormPackage#getLego_mindstom_ntx2_Mac_address()
+	 * @model dataType="org.occiware.clouddesigner.occi.String" required="true"
+	 *        annotation="OCCIE2Ecore description='null'"
+	 * @generated
+	 */
+	String getMac_address();
+
+	/**
+	 * Sets the value of the '{@link lego_mindstorm.Lego_mindstom_ntx2#getMac_address <em>Mac address</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Mac address</em>' attribute.
+	 * @see #getMac_address()
+	 * @generated
+	 */
+	void setMac_address(String value);
+
+	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @model annotation="OCCIE2Ecore title='Move forward'"
@@ -152,5 +180,21 @@ public interface Lego_mindstom_ntx2 extends Resource {
 	 * @generated
 	 */
 	void stop_move();
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @model annotation="OCCIE2Ecore title='Close connection'"
+	 * @generated
+	 */
+	void exit();
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @model annotation="OCCIE2Ecore title='Connect to the drone'"
+	 * @generated
+	 */
+	void connection();
 
 } // Lego_mindstom_ntx2

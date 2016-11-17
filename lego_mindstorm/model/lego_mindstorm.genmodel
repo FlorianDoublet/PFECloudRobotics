@@ -14,6 +14,9 @@
       <genFeatures createChild="false">
         <ecoreFeature xsi:type="ecore:EAttribute" href="lego_mindstorm.ecore#//Lego_mindstom_ntx2/move_speed"/>
       </genFeatures>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="lego_mindstorm.ecore#//Lego_mindstom_ntx2/mac_address"/>
+      </genFeatures>
       <genOperations>
         <ecoreOperation href="lego_mindstorm.ecore#//Lego_mindstom_ntx2/move_forward"/>
       </genOperations>
@@ -28,6 +31,12 @@
       </genOperations>
       <genOperations>
         <ecoreOperation href="lego_mindstorm.ecore#//Lego_mindstom_ntx2/stop_move"/>
+      </genOperations>
+      <genOperations>
+        <ecoreOperation href="lego_mindstorm.ecore#//Lego_mindstom_ntx2/exit"/>
+      </genOperations>
+      <genOperations>
+        <ecoreOperation href="lego_mindstorm.ecore#//Lego_mindstom_ntx2/connection"/>
       </genOperations>
     </genClasses>
   </genPackages>

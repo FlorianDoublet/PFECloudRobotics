@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="lego_mindstorm" version="10.0.0.201505222000">
+  <ownedViewpoints name="Lego_mindstormConfiguration" label="Lego_mindstorm Configuration">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Lego_mindstormConfiguration Diagram" domainClass="Configuration">
+      <metamodel href="http://schemas.ogf.org/occi/core/ecore#/"/>
+      <metamodel href="http://occiware.org/lego_mindstorm/ecore#/"/>
+      <defaultLayer name="Default">
+        <edgeMappings name="Lego_mindstom_ntx2LinksEdge" sourceMapping="//@ownedViewpoints[name='Lego_mindstormConfiguration']/@ownedRepresentations[name='Lego_mindstormConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='Lego_mindstom_ntx2Container']" targetMapping="" targetFinderExpression="feature:links">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="Lego_mindstom_ntx2Container"
+            labelDirectEdit="//@ownedViewpoints[name='Lego_mindstormConfiguration']/@ownedRepresentations[name='Lego_mindstormConfiguration%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='EditEntityTitle']"
+			semanticCandidatesExpression="feature:resources" 
+			domainClass="Lego_mindstom_ntx2"
+            childrenPresentation="List">
+          <subNodeMappings name="Lego_mindstom_ntx2Id"
+                labelDirectEdit="//@ownedViewpoints[name='Lego_mindstormConfiguration']/@ownedRepresentations[name='Lego_mindstormConfiguration%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='EditLego_mindstom_ntx2Id']"
+                semanticCandidatesExpression="[self/]" domainClass="Lego_mindstom_ntx2">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['id = ' + self.id.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="Lego_mindstom_ntx2Title"
+                labelDirectEdit="//@ownedViewpoints[name='Lego_mindstormConfiguration']/@ownedRepresentations[name='Lego_mindstormConfiguration%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='EditLego_mindstom_ntx2Title']"
+                semanticCandidatesExpression="[self/]" domainClass="Lego_mindstom_ntx2">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['title = ' + self.title.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="Lego_mindstom_ntx2Summary"
+                labelDirectEdit="//@ownedViewpoints[name='Lego_mindstormConfiguration']/@ownedRepresentations[name='Lego_mindstormConfiguration%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='EditLego_mindstom_ntx2Summary']"
+                semanticCandidatesExpression="[self/]" domainClass="Lego_mindstom_ntx2">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['summary = ' + self.summary.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="Lego_mindstom_ntx2Name"
+                labelDirectEdit="//@ownedViewpoints[name='Lego_mindstormConfiguration']/@ownedRepresentations[name='Lego_mindstormConfiguration%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='EditLego_mindstom_ntx2Name']"
+                semanticCandidatesExpression="[self/]" domainClass="Lego_mindstom_ntx2">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['name = ' + self.name.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="Lego_mindstom_ntx2Angle"
+                labelDirectEdit="//@ownedViewpoints[name='Lego_mindstormConfiguration']/@ownedRepresentations[name='Lego_mindstormConfiguration%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='EditLego_mindstom_ntx2Angle']"
+                semanticCandidatesExpression="[self/]" domainClass="Lego_mindstom_ntx2">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['angle = ' + self.angle.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="Lego_mindstom_ntx2Move_speed"
+                labelDirectEdit="//@ownedViewpoints[name='Lego_mindstormConfiguration']/@ownedRepresentations[name='Lego_mindstormConfiguration%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='EditLego_mindstom_ntx2Move_speed']"
+                semanticCandidatesExpression="[self/]" domainClass="Lego_mindstom_ntx2">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['move_speed = ' + self.move_speed.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="Lego_mindstom_ntx2Mac_address"
+                labelDirectEdit="//@ownedViewpoints[name='Lego_mindstormConfiguration']/@ownedRepresentations[name='Lego_mindstormConfiguration%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='EditLego_mindstom_ntx2Mac_address']"
+                semanticCandidatesExpression="[self/]" domainClass="Lego_mindstom_ntx2">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['mac_address = ' + self.mac_address.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="10" labelExpression="[self.title + ': Lego_mindstom_ntx2'/]" roundedCorner="true">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style> 
+
+        </containerMappings>
+        <toolSections name="Lego_mindstorm">
+          <ownedTools xsi:type="tool:ContainerCreationDescription" 
+			name="Create Lego_mindstom_ntx2"
+			containerMappings="//@ownedViewpoints[name='Lego_mindstormConfiguration']/@ownedRepresentations[name='Lego_mindstormConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='Lego_mindstom_ntx2Container']"> 
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="Lego_mindstom_ntx2" referenceName="resources">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="title" valueExpression="['lego_mindstom_ntx2' + container.oclAsType(Configuration).resources->size().toString()/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="Tools">
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditEntityTitle" inputLabelExpression="feature:title">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="title" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditLego_mindstom_ntx2Id" inputLabelExpression="feature:id">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="id" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditLego_mindstom_ntx2Title" inputLabelExpression="feature:title">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="title" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditLego_mindstom_ntx2Summary" inputLabelExpression="feature:summary">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="summary" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditLego_mindstom_ntx2Name" inputLabelExpression="feature:name">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditLego_mindstom_ntx2Angle" inputLabelExpression="feature:angle">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="angle" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditLego_mindstom_ntx2Move_speed" inputLabelExpression="feature:move_speed">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="move_speed" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditLego_mindstom_ntx2Mac_address" inputLabelExpression="feature:mac_address">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="mac_address" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:OperationAction" name="Lego_mindstom_ntx2Move_forwardAction" label="Move_forward" precondition="[self.oclIsKindOf(Lego_mindstom_ntx2)/]">
+            <view name="views"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.oclAsType(Lego_mindstom_ntx2).move_forward()/]"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:OperationAction" name="Lego_mindstom_ntx2Move_backwardAction" label="Move_backward" precondition="[self.oclIsKindOf(Lego_mindstom_ntx2)/]">
+            <view name="views"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.oclAsType(Lego_mindstom_ntx2).move_backward()/]"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:OperationAction" name="Lego_mindstom_ntx2Rotate_rightAction" label="Rotate_right" precondition="[self.oclIsKindOf(Lego_mindstom_ntx2)/]">
+            <view name="views"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.oclAsType(Lego_mindstom_ntx2).rotate_right()/]"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:OperationAction" name="Lego_mindstom_ntx2Rotate_leftAction" label="Rotate_left" precondition="[self.oclIsKindOf(Lego_mindstom_ntx2)/]">
+            <view name="views"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.oclAsType(Lego_mindstom_ntx2).rotate_left()/]"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:OperationAction" name="Lego_mindstom_ntx2Stop_moveAction" label="Stop_move" precondition="[self.oclIsKindOf(Lego_mindstom_ntx2)/]">
+            <view name="views"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.oclAsType(Lego_mindstom_ntx2).stop_move()/]"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:OperationAction" name="Lego_mindstom_ntx2ExitAction" label="Exit" precondition="[self.oclIsKindOf(Lego_mindstom_ntx2)/]">
+            <view name="views"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.oclAsType(Lego_mindstom_ntx2).exit()/]"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:OperationAction" name="Lego_mindstom_ntx2ConnectionAction" label="Connection" precondition="[self.oclIsKindOf(Lego_mindstom_ntx2)/]">
+            <view name="views"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.oclAsType(Lego_mindstom_ntx2).connection()/]"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:PopupMenu" name="CRUD operations" precondition="[self.oclIsKindOf(Entity)/]">
+            <menuItemDescription xsi:type="tool_1:OperationAction" name="Create">
+              <view name="views"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.oclAsType(Entity).occiCreate()/]"/>
+              </initialOperation>
+            </menuItemDescription>
+            <menuItemDescription xsi:type="tool_1:OperationAction" name="Retrieve">
+              <view name="views"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.oclAsType(Entity).occiRetrieve()/]"/>
+              </initialOperation>
+            </menuItemDescription>
+            <menuItemDescription xsi:type="tool_1:OperationAction" name="Update">
+              <view name="views"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.oclAsType(Entity).occiUpdate()/]"/>
+              </initialOperation>
+            </menuItemDescription>
+            <menuItemDescription xsi:type="tool_1:OperationAction" name="Delete">
+              <view name="views"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.oclAsType(Entity).occiDelete()/]"/>
+              </initialOperation>
+            </menuItemDescription>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+<!--
+    <ownedJavaExtensions qualifiedClassName="org.occiware.clouddesigner.occi.design.services.DesignServices"/>
+-->
+  </ownedViewpoints>
+</description:Group>

@@ -117,6 +117,10 @@
                 <styles xmi:type="notation:FontStyle" xmi:id="_Ms9scazIEear9ILcf0z_kA" fontName="Segoe UI" fontHeight="10"/>
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_Ms9scqzIEear9ILcf0z_kA"/>
               </children>
+              <children xmi:type="notation:Node" xmi:id="_G1yKwKzVEealbsqBQr9AHg" type="3010" element="_G1IqgKzVEealbsqBQr9AHg">
+                <styles xmi:type="notation:FontStyle" xmi:id="_G1yKwazVEealbsqBQr9AHg" fontName="Segoe UI" fontHeight="10"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_G1yKwqzVEealbsqBQr9AHg"/>
+              </children>
               <children xmi:type="notation:Node" xmi:id="_XzMaAKzIEear9ILcf0z_kA" type="3010" element="_XyJ4MKzIEear9ILcf0z_kA">
                 <styles xmi:type="notation:FontStyle" xmi:id="_XzMaAazIEear9ILcf0z_kA" fontName="Segoe UI" fontHeight="10"/>
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_XzMaAqzIEear9ILcf0z_kA"/>
@@ -137,11 +141,19 @@
                 <styles xmi:type="notation:FontStyle" xmi:id="_d6kn8azIEear9ILcf0z_kA" fontName="Segoe UI" fontHeight="10"/>
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_d6kn8qzIEear9ILcf0z_kA"/>
               </children>
+              <children xmi:type="notation:Node" xmi:id="_6ZykIKzUEealbsqBQr9AHg" type="3010" element="_6YLakKzUEealbsqBQr9AHg">
+                <styles xmi:type="notation:FontStyle" xmi:id="_6ZykIazUEealbsqBQr9AHg" fontName="Segoe UI" fontHeight="10"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_6ZykIqzUEealbsqBQr9AHg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="__l9uEKzUEealbsqBQr9AHg" type="3010" element="__lhCIKzUEealbsqBQr9AHg">
+                <styles xmi:type="notation:FontStyle" xmi:id="__l9uEazUEealbsqBQr9AHg" fontName="Segoe UI" fontHeight="10"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="__l9uEqzUEealbsqBQr9AHg"/>
+              </children>
               <styles xmi:type="notation:SortingStyle" xmi:id="_EYyPwazIEear9ILcf0z_kA"/>
               <styles xmi:type="notation:FilteringStyle" xmi:id="_EYyPwqzIEear9ILcf0z_kA"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_EYVj0azIEear9ILcf0z_kA" fontName="Segoe UI" fontHeight="12" bold="true"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EYVj0qzIEear9ILcf0z_kA" x="545" y="245" height="178"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EYVj0qzIEear9ILcf0z_kA" x="545" y="245" height="253"/>
           </children>
           <styles xmi:type="notation:DiagramStyle" xmi:id="_7f3uUqzHEear9ILcf0z_kA"/>
           <edges xmi:type="notation:Edge" xmi:id="_7hNLEKzHEear9ILcf0z_kA" type="4001" element="_7fkMbazHEear9ILcf0z_kA" source="_7gnVN6zHEear9ILcf0z_kA" target="_7gnVMKzHEear9ILcf0z_kA">
@@ -337,8 +349,9 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_KptbQKzIEear9ILcf0z_kA" name="name: String">
           <target xmi:type="occi:Attribute" href="model/lego_mindstorm.occie#//@kinds[term='lego_mindstom_ntx2']/@attributes.0"/>
           <semanticElements xmi:type="occi:Attribute" href="model/lego_mindstorm.occie#//@kinds[term='lego_mindstom_ntx2']/@attributes.0"/>
-          <ownedStyle xmi:type="diagram:Square" xmi:id="_KqA9QKzIEear9ILcf0z_kA" labelSize="10" labelAlignment="LEFT" labelPosition="node">
-            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAttribute']/@conditionnalStyles.2/@style"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_MN434KzVEealbsqBQr9AHg" labelSize="10" labelAlignment="LEFT" labelPosition="node">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAttribute']/@conditionnalStyles.3/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAttribute']"/>
         </ownedElements>
@@ -355,6 +368,15 @@
           <semanticElements xmi:type="occi:Attribute" href="model/lego_mindstorm.occie#//@kinds[term='lego_mindstom_ntx2']/@attributes.2"/>
           <ownedStyle xmi:type="diagram:Square" xmi:id="_MshAgazIEear9ILcf0z_kA" labelSize="10" labelAlignment="LEFT" labelPosition="node">
             <description xmi:type="style:SquareDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAttribute']/@conditionnalStyles.2/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAttribute']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_G1IqgKzVEealbsqBQr9AHg" name="mac_address: String">
+          <target xmi:type="occi:Attribute" href="model/lego_mindstorm.occie#//@kinds[term='lego_mindstom_ntx2']/@attributes.3"/>
+          <semanticElements xmi:type="occi:Attribute" href="model/lego_mindstorm.occie#//@kinds[term='lego_mindstom_ntx2']/@attributes.3"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_LKs8kKzVEealbsqBQr9AHg" labelSize="10" labelAlignment="LEFT" labelPosition="node">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAttribute']/@conditionnalStyles.3/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAttribute']"/>
         </ownedElements>
@@ -394,6 +416,22 @@
           <target xmi:type="occi:Action" href="model/lego_mindstorm.occie#//@kinds[term='lego_mindstom_ntx2']/@actions.4"/>
           <semanticElements xmi:type="occi:Action" href="model/lego_mindstorm.occie#//@kinds[term='lego_mindstom_ntx2']/@actions.4"/>
           <ownedStyle xmi:type="diagram:Square" xmi:id="_d6RtAazIEear9ILcf0z_kA" labelSize="10" labelAlignment="LEFT" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAction']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAction']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_6YLakKzUEealbsqBQr9AHg" name="exit()">
+          <target xmi:type="occi:Action" href="model/lego_mindstorm.occie#//@kinds[term='lego_mindstom_ntx2']/@actions.5"/>
+          <semanticElements xmi:type="occi:Action" href="model/lego_mindstorm.occie#//@kinds[term='lego_mindstom_ntx2']/@actions.5"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_6YLakazUEealbsqBQr9AHg" labelSize="10" labelAlignment="LEFT" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAction']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAction']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="__lhCIKzUEealbsqBQr9AHg" name="connection()">
+          <target xmi:type="occi:Action" href="model/lego_mindstorm.occie#//@kinds[term='lego_mindstom_ntx2']/@actions.6"/>
+          <semanticElements xmi:type="occi:Action" href="model/lego_mindstorm.occie#//@kinds[term='lego_mindstom_ntx2']/@actions.6"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="__lhCIazUEealbsqBQr9AHg" labelSize="10" labelAlignment="LEFT" labelPosition="node">
             <description xmi:type="style:SquareDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAction']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAction']"/>

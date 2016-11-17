@@ -1,4 +1,4 @@
-// Generated at Thu Nov 17 14:24:11 CET 2016 from platform:/resource/lego_mindstorm/model/lego_mindstorm.occie by org.occiware.clouddesigner.occi.gen.alloy
+// Generated at Thu Nov 17 15:55:08 CET 2016 from platform:/resource/lego_mindstorm/model/lego_mindstorm.occie by org.occiware.clouddesigner.occi.gen.alloy
 
 // ======================================================================
 //
@@ -59,6 +59,18 @@ pred isoLego_mindstom_ntx2[l1, l2: Lego_mindstom_ntx2]
 
 //
 // OCCI Action 'http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#stop_move'
+//
+
+
+
+//
+// OCCI Action 'http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#exit'
+//
+
+
+
+//
+// OCCI Action 'http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#connection'
 //
 
 
