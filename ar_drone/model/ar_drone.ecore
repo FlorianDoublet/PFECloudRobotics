@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="ar_drone" nsURI="http://occiware.org/ar_drone/ecore" nsPrefix="ar_drone">
+  <eClassifiers xsi:type="ecore:EClass" name="Ar_drone" eSuperTypes="platform:/plugin/org.occiware.clouddesigner.occi/model/OCCI.ecore#//Resource">
+    <eAnnotations source="OCCIE2Ecore">
+      <details key="title"/>
+    </eAnnotations>
+    <eOperations name="move">
+      <eAnnotations source="OCCIE2Ecore">
+        <details key="title" value="Move the drone"/>
+      </eAnnotations>
+    </eOperations>
+    <eOperations name="land">
+      <eAnnotations source="OCCIE2Ecore">
+        <details key="title" value="Land the drone"/>
+      </eAnnotations>
+    </eOperations>
+    <eOperations name="take_off">
+      <eAnnotations source="OCCIE2Ecore">
+        <details key="title" value="Take off the drone"/>
+      </eAnnotations>
+    </eOperations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType platform:/plugin/org.occiware.clouddesigner.occi/model/OCCI.ecore#//String">
+      <eAnnotations source="OCCIE2Ecore">
+        <details key="description"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="left_right_tilt" lowerBound="1"
+        eType="ecore:EDataType platform:/plugin/org.occiware.clouddesigner.occi/model/OCCI.ecore#//Number">
+      <eAnnotations source="OCCIE2Ecore">
+        <details key="description" value="The left-right tilt (aka. &quot;drone roll&quot; or phi&#xD;&#xA;     *            angle) argument is a percentage of the maximum inclination as&#xD;&#xA;     *            configured here. A negative value makes the drone tilt to its&#xD;&#xA;     *            left, thus flying leftward. A positive value makes the drone&#xD;&#xA;     *            tilt to its right, thus flying rightward."/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="front_back_tilt" lowerBound="1"
+        eType="ecore:EDataType platform:/plugin/org.occiware.clouddesigner.occi/model/OCCI.ecore#//Number">
+      <eAnnotations source="OCCIE2Ecore">
+        <details key="description" value="The front-back tilt (aka. &quot;drone pitch&quot; or theta&#xD;&#xA;     *            angle) argument is a percentage of the maximum inclination as&#xD;&#xA;     *            configured here. A negative value makes the drone lower its&#xD;&#xA;     *            nose, thus flying frontward. A positive value makes the drone&#xD;&#xA;     *            raise its nose, thus flying backward. The drone translation&#xD;&#xA;     *            speed in the horizontal plane depends on the environment and&#xD;&#xA;     *            cannot be determined. With roll or pitch values set to 0, the&#xD;&#xA;     *            drone will stay horizontal but continue sliding in the air&#xD;&#xA;     *            because of its inertia. Only the air resistance will then make&#xD;&#xA;     *            it stop."/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="vertical_speed" lowerBound="1"
+        eType="ecore:EDataType platform:/plugin/org.occiware.clouddesigner.occi/model/OCCI.ecore#//Number">
+      <eAnnotations source="OCCIE2Ecore">
+        <details key="description" value="The vertical speed (aka. &quot;gaz&quot;) argument is a&#xD;&#xA;     *            percentage of the maximum vertical speed as defined here. A&#xD;&#xA;     *            positive value makes the drone rise in the air. A negative&#xD;&#xA;     *            value makes it go down."/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="angular_speed" lowerBound="1"
+        eType="ecore:EDataType platform:/plugin/org.occiware.clouddesigner.occi/model/OCCI.ecore#//Number">
+      <eAnnotations source="OCCIE2Ecore">
+        <details key="description" value="The angular speed argument is a percentage of the&#xD;&#xA;     *            maximum angular speed as defined here. A positive value makes&#xD;&#xA;     *            the drone spin right; a negative value makes it spin left."/>
+      </eAnnotations>
+    </eStructuralFeatures>
+  </eClassifiers>
+</ecore:EPackage>

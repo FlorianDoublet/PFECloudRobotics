@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<occi:Extension xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:occi="http://schemas.ogf.org/occi/core/ecore" name="ar_drone" scheme="http://occiware.org/ar_drone#" description="The left-right tilt (aka. &quot;drone roll&quot; or phi&#xD;&#xA;     *            angle) argument is a percentage of the maximum inclination as&#xD;&#xA;     *            configured here. A negative value makes the drone tilt to its&#xD;&#xA;     *            left, thus flying leftward. A positive value makes the drone&#xD;&#xA;     *            tilt to its right, thus flying rightward.">
+  <import href="http://schemas.ogf.org/occi/core#/"/>
+  <kinds term="ar_drone" scheme="http://occiware.org/ar_drone#">
+    <attributes name="name">
+      <type href="http://schemas.ogf.org/occi/core#//@types.0"/>
+    </attributes>
+    <attributes name="left_right_tilt" required="true" default="" description="The left-right tilt (aka. &quot;drone roll&quot; or phi&#xD;&#xA;     *            angle) argument is a percentage of the maximum inclination as&#xD;&#xA;     *            configured here. A negative value makes the drone tilt to its&#xD;&#xA;     *            left, thus flying leftward. A positive value makes the drone&#xD;&#xA;     *            tilt to its right, thus flying rightward.">
+      <type href="http://schemas.ogf.org/occi/core#//@types.2"/>
+    </attributes>
+    <attributes name="front_back_tilt" required="true" default="" description="The front-back tilt (aka. &quot;drone pitch&quot; or theta&#xD;&#xA;     *            angle) argument is a percentage of the maximum inclination as&#xD;&#xA;     *            configured here. A negative value makes the drone lower its&#xD;&#xA;     *            nose, thus flying frontward. A positive value makes the drone&#xD;&#xA;     *            raise its nose, thus flying backward. The drone translation&#xD;&#xA;     *            speed in the horizontal plane depends on the environment and&#xD;&#xA;     *            cannot be determined. With roll or pitch values set to 0, the&#xD;&#xA;     *            drone will stay horizontal but continue sliding in the air&#xD;&#xA;     *            because of its inertia. Only the air resistance will then make&#xD;&#xA;     *            it stop.">
+      <type href="http://schemas.ogf.org/occi/core#//@types.2"/>
+    </attributes>
+    <attributes name="vertical_speed" required="true" default="" description="The vertical speed (aka. &quot;gaz&quot;) argument is a&#xD;&#xA;     *            percentage of the maximum vertical speed as defined here. A&#xD;&#xA;     *            positive value makes the drone rise in the air. A negative&#xD;&#xA;     *            value makes it go down.">
+      <type href="http://schemas.ogf.org/occi/core#//@types.2"/>
+    </attributes>
+    <attributes name="angular_speed" required="true" description="The angular speed argument is a percentage of the&#xD;&#xA;     *            maximum angular speed as defined here. A positive value makes&#xD;&#xA;     *            the drone spin right; a negative value makes it spin left.">
+      <type href="http://schemas.ogf.org/occi/core#//@types.2"/>
+    </attributes>
+    <parent href="http://schemas.ogf.org/occi/core#//@kinds[term='resource']"/>
+    <actions term="move" scheme="http://occiware.org/ar_drone/ar_drone/action#" title="Move the drone"/>
+    <actions term="land" scheme="http://occiware.org/ar_drone/ar_drone/action#" title="Land the drone"/>
+    <actions term="take_off" scheme="http://occiware.org/ar_drone/ar_drone/action#" title="Take off the drone"/>
+  </kinds>
+</occi:Extension>

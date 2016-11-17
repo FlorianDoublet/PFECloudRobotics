@@ -1,0 +1,37 @@
+h1. 
+
+| *Name* | lego_mindstorm |
+| *Scheme* | http://occiware.org/lego_mindstorm# |
+
+Imported OCCI Extensions:
+
+| *Name* | *Scheme* |
+| <a href="core.textile">core</a> | http://schemas.ogf.org/occi/core# |
+
+h1. Kinds
+
+h2. Kind lego_mindstom_ntx2
+
+| *Term* | lego_mindstom_ntx2 |
+| *Scheme* | http://occiware.org/lego_mindstorm# |
+| *Title* |  |
+| *Parent* | <a href="core.textile#kind-resource">http://schemas.ogf.org/occi/core#resource</a> |
+
+Attributes of lego_mindstom_ntx2 are:
+
+| *Attribute* | *Type* | *Required* | *Mutable* | *Default* | *Description* |
+| name | <a href="core.textile#datatype-string">String</a> | false | true |  |  |
+| angle | <a href="core.textile#datatype-number">Number</a> | false | true |  |  |
+| move_speed | <a href="core.textile#datatype-number">Number</a> | false | true |  |  |
+
+Actions of lego_mindstom_ntx2 are:
+
+| *Term* | *Scheme* | *Attributes* | *Title* |
+| move_forward | http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action# |  | Move forward |
+| move_backward | http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action# |  | Move backward |
+| rotate_right | http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action# |  | Rotate right |
+| rotate_left | http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action# |  | Rotate left |
+| stop_move | http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action# |  | Stop move |
+
+
+Generated at Thu Nov 17 14:24:16 CET 2016 from platform:/resource/lego_mindstorm/model/lego_mindstorm.occie by org.occiware.clouddesigner.occi.gen.doc

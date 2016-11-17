@@ -1,0 +1,59 @@
+h1. The left-right tilt (aka. "drone roll" or phi
+     *            angle) argument is a percentage of the maximum inclination as
+     *            configured here. A negative value makes the drone tilt to its
+     *            left, thus flying leftward. A positive value makes the drone
+     *            tilt to its right, thus flying rightward.
+
+| *Name* | ar_drone |
+| *Scheme* | http://occiware.org/ar_drone# |
+
+Imported OCCI Extensions:
+
+| *Name* | *Scheme* |
+| <a href="core.textile">core</a> | http://schemas.ogf.org/occi/core# |
+
+h1. Kinds
+
+h2. Kind ar_drone
+
+| *Term* | ar_drone |
+| *Scheme* | http://occiware.org/ar_drone# |
+| *Title* |  |
+| *Parent* | <a href="core.textile#kind-resource">http://schemas.ogf.org/occi/core#resource</a> |
+
+Attributes of ar_drone are:
+
+| *Attribute* | *Type* | *Required* | *Mutable* | *Default* | *Description* |
+| name | <a href="core.textile#datatype-string">String</a> | false | true |  |  |
+| left_right_tilt | <a href="core.textile#datatype-number">Number</a> | true | true |  | The left-right tilt (aka. "drone roll" or phi
+     *            angle) argument is a percentage of the maximum inclination as
+     *            configured here. A negative value makes the drone tilt to its
+     *            left, thus flying leftward. A positive value makes the drone
+     *            tilt to its right, thus flying rightward. |
+| front_back_tilt | <a href="core.textile#datatype-number">Number</a> | true | true |  | The front-back tilt (aka. "drone pitch" or theta
+     *            angle) argument is a percentage of the maximum inclination as
+     *            configured here. A negative value makes the drone lower its
+     *            nose, thus flying frontward. A positive value makes the drone
+     *            raise its nose, thus flying backward. The drone translation
+     *            speed in the horizontal plane depends on the environment and
+     *            cannot be determined. With roll or pitch values set to 0, the
+     *            drone will stay horizontal but continue sliding in the air
+     *            because of its inertia. Only the air resistance will then make
+     *            it stop. |
+| vertical_speed | <a href="core.textile#datatype-number">Number</a> | true | true |  | The vertical speed (aka. "gaz") argument is a
+     *            percentage of the maximum vertical speed as defined here. A
+     *            positive value makes the drone rise in the air. A negative
+     *            value makes it go down. |
+| angular_speed | <a href="core.textile#datatype-number">Number</a> | true | true |  | The angular speed argument is a percentage of the
+     *            maximum angular speed as defined here. A positive value makes
+     *            the drone spin right; a negative value makes it spin left. |
+
+Actions of ar_drone are:
+     
+     | *Term* | *Scheme* | *Attributes* | *Title* |
+     | move | http://occiware.org/ar_drone/ar_drone/action# |  | Move the drone |
+     | land | http://occiware.org/ar_drone/ar_drone/action# |  | Land the drone |
+     | take_off | http://occiware.org/ar_drone/ar_drone/action# |  | Take off the drone |
+     
+
+Generated at Thu Nov 17 14:40:22 CET 2016 from platform:/resource/ar_drone/model/ar_drone.occie by org.occiware.clouddesigner.occi.gen.doc

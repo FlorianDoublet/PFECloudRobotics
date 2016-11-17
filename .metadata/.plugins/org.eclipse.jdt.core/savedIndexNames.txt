@@ -1,0 +1,6 @@
+INDEX VERSION 1.129+D:\Documents\UNIV\PFECloudRobotic\PFECloudRobotics\.metadata\.plugins\org.eclipse.jdt.core
+575148533.index
+3232275376.index
+2225884726.index
+1668842251.index
+2125845081.index
