@@ -31,16 +31,6 @@
         <details key="title" value="Stop move"/>
       </eAnnotations>
     </eOperations>
-    <eOperations name="exit">
-      <eAnnotations source="OCCIE2Ecore">
-        <details key="title" value="Close connection"/>
-      </eAnnotations>
-    </eOperations>
-    <eOperations name="connection">
-      <eAnnotations source="OCCIE2Ecore">
-        <details key="title" value="Connect to the drone"/>
-      </eAnnotations>
-    </eOperations>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType platform:/plugin/org.occiware.clouddesigner.occi/model/OCCI.ecore#//String">
       <eAnnotations source="OCCIE2Ecore">
         <details key="description"/>
@@ -58,6 +48,11 @@
     </eStructuralFeatures>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="mac_address" lowerBound="1"
         eType="ecore:EDataType platform:/plugin/org.occiware.clouddesigner.occi/model/OCCI.ecore#//String">
+      <eAnnotations source="OCCIE2Ecore">
+        <details key="description"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="duration" eType="ecore:EDataType platform:/plugin/org.occiware.clouddesigner.occi/model/OCCI.ecore#//Number">
       <eAnnotations source="OCCIE2Ecore">
         <details key="description"/>
       </eAnnotations>

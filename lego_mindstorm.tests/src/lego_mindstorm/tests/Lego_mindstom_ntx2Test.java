@@ -30,8 +30,6 @@ import lego_mindstorm.Lego_mindstormFactory;
  *   <li>{@link lego_mindstorm.Lego_mindstom_ntx2#rotate_right() <em>Rotate right</em>}</li>
  *   <li>{@link lego_mindstorm.Lego_mindstom_ntx2#rotate_left() <em>Rotate left</em>}</li>
  *   <li>{@link lego_mindstorm.Lego_mindstom_ntx2#stop_move() <em>Stop move</em>}</li>
- *   <li>{@link lego_mindstorm.Lego_mindstom_ntx2#exit() <em>Exit</em>}</li>
- *   <li>{@link lego_mindstorm.Lego_mindstom_ntx2#connection() <em>Connection</em>}</li>
  * </ul>
  * </p>
  * @generated
@@ -94,7 +92,6 @@ public class Lego_mindstom_ntx2Test extends TestCase {
 	@Override
 	protected void setUp() throws Exception {
 		setFixture(Lego_mindstormFactory.eINSTANCE.createLego_mindstom_ntx2());
-		fixture.occiCreate();
 	}
 
 	/**
@@ -105,7 +102,6 @@ public class Lego_mindstom_ntx2Test extends TestCase {
 	 */
 	@Override
 	protected void tearDown() throws Exception {
-		fixture.occiDelete();
 		setFixture(null);
 	}
 
@@ -119,7 +115,6 @@ public class Lego_mindstom_ntx2Test extends TestCase {
 	public void testMove_forward() {
 		// TODO: implement this operation test method
 		// Ensure that you remove @generated or mark it @generated NOT
-		fixture.move_forward();
 		fail();
 	}
 
@@ -170,32 +165,6 @@ public class Lego_mindstom_ntx2Test extends TestCase {
 	 * @generated
 	 */
 	public void testStop_move() {
-		// TODO: implement this operation test method
-		// Ensure that you remove @generated or mark it @generated NOT
-		fail();
-	}
-
-	/**
-	 * Tests the '{@link lego_mindstorm.Lego_mindstom_ntx2#exit() <em>Exit</em>}' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see lego_mindstorm.Lego_mindstom_ntx2#exit()
-	 * @generated
-	 */
-	public void testExit() {
-		// TODO: implement this operation test method
-		// Ensure that you remove @generated or mark it @generated NOT
-		fail();
-	}
-
-	/**
-	 * Tests the '{@link lego_mindstorm.Lego_mindstom_ntx2#connection() <em>Connection</em>}' operation.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see lego_mindstorm.Lego_mindstom_ntx2#connection()
-	 * @generated
-	 */
-	public void testConnection() {
 		// TODO: implement this operation test method
 		// Ensure that you remove @generated or mark it @generated NOT
 		fail();

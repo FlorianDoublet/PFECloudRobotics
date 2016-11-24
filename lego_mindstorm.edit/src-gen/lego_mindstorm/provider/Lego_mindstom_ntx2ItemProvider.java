@@ -62,6 +62,7 @@ public class Lego_mindstom_ntx2ItemProvider extends ResourceItemProvider {
 			addAnglePropertyDescriptor(object);
 			addMove_speedPropertyDescriptor(object);
 			addMac_addressPropertyDescriptor(object);
+			addDurationPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -155,6 +156,28 @@ public class Lego_mindstom_ntx2ItemProvider extends ResourceItemProvider {
 	}
 
 	/**
+	 * This adds a property descriptor for the Duration feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addDurationPropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_Lego_mindstom_ntx2_duration_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Lego_mindstom_ntx2_duration_feature", "_UI_Lego_mindstom_ntx2_type"),
+				 Lego_mindstormPackage.Literals.LEGO_MINDSTOM_NTX2__DURATION,
+				 true,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
+				 null,
+				 null));
+	}
+
+	/**
 	 * This returns Lego_mindstom_ntx2.gif.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -196,6 +219,7 @@ public class Lego_mindstom_ntx2ItemProvider extends ResourceItemProvider {
 			case Lego_mindstormPackage.LEGO_MINDSTOM_NTX2__ANGLE:
 			case Lego_mindstormPackage.LEGO_MINDSTOM_NTX2__MOVE_SPEED:
 			case Lego_mindstormPackage.LEGO_MINDSTOM_NTX2__MAC_ADDRESS:
+			case Lego_mindstormPackage.LEGO_MINDSTOM_NTX2__DURATION:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;
 		}

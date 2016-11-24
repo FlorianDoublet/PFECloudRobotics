@@ -152,6 +152,15 @@ public class Lego_mindstormPackageImpl extends EPackageImpl implements Lego_mind
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public EAttribute getLego_mindstom_ntx2_Duration() {
+		return (EAttribute)lego_mindstom_ntx2EClass.getEStructuralFeatures().get(4);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public EOperation getLego_mindstom_ntx2__Move_forward() {
 		return lego_mindstom_ntx2EClass.getEOperations().get(0);
 	}
@@ -197,24 +206,6 @@ public class Lego_mindstormPackageImpl extends EPackageImpl implements Lego_mind
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EOperation getLego_mindstom_ntx2__Exit() {
-		return lego_mindstom_ntx2EClass.getEOperations().get(5);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EOperation getLego_mindstom_ntx2__Connection() {
-		return lego_mindstom_ntx2EClass.getEOperations().get(6);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	public Lego_mindstormFactory getLego_mindstormFactory() {
 		return (Lego_mindstormFactory)getEFactoryInstance();
 	}
@@ -243,13 +234,12 @@ public class Lego_mindstormPackageImpl extends EPackageImpl implements Lego_mind
 		createEAttribute(lego_mindstom_ntx2EClass, LEGO_MINDSTOM_NTX2__ANGLE);
 		createEAttribute(lego_mindstom_ntx2EClass, LEGO_MINDSTOM_NTX2__MOVE_SPEED);
 		createEAttribute(lego_mindstom_ntx2EClass, LEGO_MINDSTOM_NTX2__MAC_ADDRESS);
+		createEAttribute(lego_mindstom_ntx2EClass, LEGO_MINDSTOM_NTX2__DURATION);
 		createEOperation(lego_mindstom_ntx2EClass, LEGO_MINDSTOM_NTX2___MOVE_FORWARD);
 		createEOperation(lego_mindstom_ntx2EClass, LEGO_MINDSTOM_NTX2___MOVE_BACKWARD);
 		createEOperation(lego_mindstom_ntx2EClass, LEGO_MINDSTOM_NTX2___ROTATE_RIGHT);
 		createEOperation(lego_mindstom_ntx2EClass, LEGO_MINDSTOM_NTX2___ROTATE_LEFT);
 		createEOperation(lego_mindstom_ntx2EClass, LEGO_MINDSTOM_NTX2___STOP_MOVE);
-		createEOperation(lego_mindstom_ntx2EClass, LEGO_MINDSTOM_NTX2___EXIT);
-		createEOperation(lego_mindstom_ntx2EClass, LEGO_MINDSTOM_NTX2___CONNECTION);
 	}
 
 	/**
@@ -291,6 +281,7 @@ public class Lego_mindstormPackageImpl extends EPackageImpl implements Lego_mind
 		initEAttribute(getLego_mindstom_ntx2_Angle(), theOCCIPackage.getNumber(), "angle", null, 0, 1, Lego_mindstom_ntx2.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getLego_mindstom_ntx2_Move_speed(), theOCCIPackage.getNumber(), "move_speed", null, 0, 1, Lego_mindstom_ntx2.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getLego_mindstom_ntx2_Mac_address(), theOCCIPackage.getString(), "mac_address", null, 1, 1, Lego_mindstom_ntx2.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getLego_mindstom_ntx2_Duration(), theOCCIPackage.getNumber(), "duration", null, 0, 1, Lego_mindstom_ntx2.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEOperation(getLego_mindstom_ntx2__Move_forward(), null, "move_forward", 0, 1, IS_UNIQUE, IS_ORDERED);
 
@@ -301,10 +292,6 @@ public class Lego_mindstormPackageImpl extends EPackageImpl implements Lego_mind
 		initEOperation(getLego_mindstom_ntx2__Rotate_left(), null, "rotate_left", 0, 1, IS_UNIQUE, IS_ORDERED);
 
 		initEOperation(getLego_mindstom_ntx2__Stop_move(), null, "stop_move", 0, 1, IS_UNIQUE, IS_ORDERED);
-
-		initEOperation(getLego_mindstom_ntx2__Exit(), null, "exit", 0, 1, IS_UNIQUE, IS_ORDERED);
-
-		initEOperation(getLego_mindstom_ntx2__Connection(), null, "connection", 0, 1, IS_UNIQUE, IS_ORDERED);
 
 		// Create resource
 		createResource(eNS_URI);
@@ -359,18 +346,6 @@ public class Lego_mindstormPackageImpl extends EPackageImpl implements Lego_mind
 			 "title", "Stop move"
 		   });	
 		addAnnotation
-		  (getLego_mindstom_ntx2__Exit(), 
-		   source, 
-		   new String[] {
-			 "title", "Close connection"
-		   });	
-		addAnnotation
-		  (getLego_mindstom_ntx2__Connection(), 
-		   source, 
-		   new String[] {
-			 "title", "Connect to the drone"
-		   });	
-		addAnnotation
 		  (getLego_mindstom_ntx2_Name(), 
 		   source, 
 		   new String[] {
@@ -390,6 +365,12 @@ public class Lego_mindstormPackageImpl extends EPackageImpl implements Lego_mind
 		   });	
 		addAnnotation
 		  (getLego_mindstom_ntx2_Mac_address(), 
+		   source, 
+		   new String[] {
+			 "description", null
+		   });	
+		addAnnotation
+		  (getLego_mindstom_ntx2_Duration(), 
 		   source, 
 		   new String[] {
 			 "description", null

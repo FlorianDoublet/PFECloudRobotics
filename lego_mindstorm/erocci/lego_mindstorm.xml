@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated at Thu Nov 24 14:18:33 CET 2016 from platform:/resource/lego_mindstorm/model/lego_mindstorm.occie by org.occiware.clouddesigner.occi.gen.xml -->
+<occi:extension xmlns:occi="http://schemas.ogf.org/occi"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://schemas.ogf.org/occi occi.xsd"
+    name="lego_mindstorm"
+    scheme="http://occiware.org/lego_mindstorm#"
+    version="1"
+    status="stable">
+
+  <!-- Kind:  -->
+  <occi:kind term="lego_mindstom_ntx2" scheme="http://occiware.org/lego_mindstorm#" title="">
+    <occi:parent term="resource" scheme="http://schemas.ogf.org/occi/core#"/>
+    <occi:attribute name="name" use="required" type="xs:string" title=""/>
+    <occi:attribute name="angle" use="optional" type="xs:integer" title=""/>
+    <occi:attribute name="move_speed" use="optional" type="xs:integer" title=""/>
+    <occi:attribute name="mac_address" use="required" type="xs:string" title=""/>
+    <occi:action term="move_forward" scheme="http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#" title="Move forward">
+    </occi:action>
+    <occi:action term="move_backward" scheme="http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#" title="Move backward">
+    </occi:action>
+    <occi:action term="rotate_right" scheme="http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#" title="Rotate right">
+    </occi:action>
+    <occi:action term="rotate_left" scheme="http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#" title="Rotate left">
+    </occi:action>
+    <occi:action term="stop_move" scheme="http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#" title="Stop move">
+    </occi:action>
+  </occi:kind>
+
+</occi:extension>

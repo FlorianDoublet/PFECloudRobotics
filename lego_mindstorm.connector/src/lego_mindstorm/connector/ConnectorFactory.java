@@ -9,7 +9,7 @@
  * Contributors:
  * - Philippe Merle <philippe.merle@inria.fr>
  *
- * Generated at Thu Nov 17 15:56:10 CET 2016 from platform:/resource/lego_mindstorm/model/lego_mindstorm.occie by org.occiware.clouddesigner.occi.gen.connector
+ * Generated at Thu Nov 24 16:10:41 CET 2016 from platform:/resource/lego_mindstorm/model/lego_mindstorm.occie by org.occiware.clouddesigner.occi.gen.connector
  */
 package lego_mindstorm.connector;
 

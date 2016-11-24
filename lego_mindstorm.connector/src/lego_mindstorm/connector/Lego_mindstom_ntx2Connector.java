@@ -9,7 +9,7 @@
  * Contributors:
  * - Philippe Merle <philippe.merle@inria.fr>
  *
- * Generated at Thu Nov 17 15:56:10 CET 2016 from platform:/resource/lego_mindstorm/model/lego_mindstorm.occie by org.occiware.clouddesigner.occi.gen.connector
+ * Generated at Thu Nov 24 14:21:03 CET 2016 from platform:/resource/lego_mindstorm/model/lego_mindstorm.occie by org.occiware.clouddesigner.occi.gen.connector
  */
 package lego_mindstorm.connector;
 
@@ -55,6 +55,11 @@ public class Lego_mindstom_ntx2Connector extends lego_mindstorm.impl.Lego_mindst
 
 		// TODO: Implement this callback or remove this method.
 		mindstormControl = new MindstormControl("ClapTrap", "00:16:53:10:10:C3");
+		//default duration
+		this.setDuration(1000);
+		//default angle
+		this.setAngle(45);
+		this.connection();
 	}
 
 	/**
@@ -88,6 +93,7 @@ public class Lego_mindstom_ntx2Connector extends lego_mindstorm.impl.Lego_mindst
 		LOGGER.debug("occiDelete() called on " + this);
 
 		// TODO: Implement this callback or remove this method.
+		this.disconnect();
 	}
 
 	//
@@ -106,7 +112,7 @@ public class Lego_mindstom_ntx2Connector extends lego_mindstorm.impl.Lego_mindst
 		LOGGER.debug("Action move_forward() called on " + this);
 
 		// TODO: Implement how to move_forward this lego_mindstom_ntx2.
-		mindstormControl.move_forward();
+		mindstormControl.move_forward(this.duration);
 	}
 
 	/**
@@ -121,7 +127,8 @@ public class Lego_mindstom_ntx2Connector extends lego_mindstorm.impl.Lego_mindst
 		LOGGER.debug("Action move_backward() called on " + this);
 
 		// TODO: Implement how to move_backward this lego_mindstom_ntx2.
-		mindstormControl.move_backward();
+		mindstormControl.move_backward(this.duration);
+		
 	}
 
 	/**
@@ -136,7 +143,7 @@ public class Lego_mindstom_ntx2Connector extends lego_mindstorm.impl.Lego_mindst
 		LOGGER.debug("Action rotate_right() called on " + this);
 
 		// TODO: Implement how to rotate_right this lego_mindstom_ntx2.
-		mindstormControl.turnRight();
+		mindstormControl.turnRight(this.angle);
 	}
 
 	/**
@@ -151,7 +158,7 @@ public class Lego_mindstom_ntx2Connector extends lego_mindstorm.impl.Lego_mindst
 		LOGGER.debug("Action rotate_left() called on " + this);
 
 		// TODO: Implement how to rotate_left this lego_mindstom_ntx2.
-		mindstormControl.turnLeft();
+		mindstormControl.turnLeft(this.angle);
 	}
 
 	/**
@@ -166,32 +173,12 @@ public class Lego_mindstom_ntx2Connector extends lego_mindstorm.impl.Lego_mindst
 		LOGGER.debug("Action stop_move() called on " + this);
 
 		// TODO: Implement how to stop_move this lego_mindstom_ntx2.
-		
 	}
-
+	
 	/**
-	 * Implement OCCI action:
-     * - scheme: http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#
-     * - term: exit
-     * - title: Close connection
+	 * Connection to the device
 	 */
-	@Override
-	public void exit()
-	{
-		LOGGER.debug("Action exit() called on " + this);
-
-		// TODO: Implement how to exit this lego_mindstom_ntx2.
-		mindstormControl.BTdisconnect();
-	}
-
-	/**
-	 * Implement OCCI action:
-     * - scheme: http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#
-     * - term: connection
-     * - title: Connect to the drone
-	 */
-	@Override
-	public void connection()
+	private void connection()
 	{
 		LOGGER.debug("Action connection() called on " + this);
 
@@ -203,6 +190,14 @@ public class Lego_mindstom_ntx2Connector extends lego_mindstorm.impl.Lego_mindst
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+	
+	private void disconnect()
+	{
+		LOGGER.debug("Action exit() called on " + this);
+
+		// TODO: Implement how to exit this lego_mindstom_ntx2.
+		mindstormControl.BTdisconnect();
 	}
 
 }	

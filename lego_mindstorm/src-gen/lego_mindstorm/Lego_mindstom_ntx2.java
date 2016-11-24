@@ -26,6 +26,7 @@ import org.occiware.clouddesigner.occi.Resource;
  *   <li>{@link lego_mindstorm.Lego_mindstom_ntx2#getAngle <em>Angle</em>}</li>
  *   <li>{@link lego_mindstorm.Lego_mindstom_ntx2#getMove_speed <em>Move speed</em>}</li>
  *   <li>{@link lego_mindstorm.Lego_mindstom_ntx2#getMac_address <em>Mac address</em>}</li>
+ *   <li>{@link lego_mindstorm.Lego_mindstom_ntx2#getDuration <em>Duration</em>}</li>
  * </ul>
  *
  * @see lego_mindstorm.Lego_mindstormPackage#getLego_mindstom_ntx2()
@@ -142,6 +143,33 @@ public interface Lego_mindstom_ntx2 extends Resource {
 	void setMac_address(String value);
 
 	/**
+	 * Returns the value of the '<em><b>Duration</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Duration</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Duration</em>' attribute.
+	 * @see #setDuration(int)
+	 * @see lego_mindstorm.Lego_mindstormPackage#getLego_mindstom_ntx2_Duration()
+	 * @model dataType="org.occiware.clouddesigner.occi.Number"
+	 *        annotation="OCCIE2Ecore description='null'"
+	 * @generated
+	 */
+	int getDuration();
+
+	/**
+	 * Sets the value of the '{@link lego_mindstorm.Lego_mindstom_ntx2#getDuration <em>Duration</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Duration</em>' attribute.
+	 * @see #getDuration()
+	 * @generated
+	 */
+	void setDuration(int value);
+
+	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @model annotation="OCCIE2Ecore title='Move forward'"
@@ -180,21 +208,5 @@ public interface Lego_mindstom_ntx2 extends Resource {
 	 * @generated
 	 */
 	void stop_move();
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @model annotation="OCCIE2Ecore title='Close connection'"
-	 * @generated
-	 */
-	void exit();
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @model annotation="OCCIE2Ecore title='Connect to the drone'"
-	 * @generated
-	 */
-	void connection();
 
 } // Lego_mindstom_ntx2

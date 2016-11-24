@@ -1,4 +1,4 @@
-// Generated at Thu Nov 17 15:55:08 CET 2016 from platform:/resource/lego_mindstorm/model/lego_mindstorm.occie by org.occiware.clouddesigner.occi.gen.alloy
+// Generated at Thu Nov 24 16:07:14 CET 2016 from platform:/resource/lego_mindstorm/model/lego_mindstorm.occie by org.occiware.clouddesigner.occi.gen.alloy
 
 // ======================================================================
 //
@@ -45,8 +45,8 @@ one sig lego_mindstom_ntx2 extends Kind {} {
     scheme = "http://occiware.org/lego_mindstorm#"
     no title
     parent = core/resource
-    attributes = lego_mindstom_ntx2_name + lego_mindstom_ntx2_angle + lego_mindstom_ntx2_move_speed + lego_mindstom_ntx2_mac_address
-    actions = lego_mindstom_ntx2_move_forward + lego_mindstom_ntx2_move_backward + lego_mindstom_ntx2_rotate_right + lego_mindstom_ntx2_rotate_left + lego_mindstom_ntx2_stop_move + lego_mindstom_ntx2_exit + lego_mindstom_ntx2_connection
+    attributes = lego_mindstom_ntx2_name + lego_mindstom_ntx2_angle + lego_mindstom_ntx2_move_speed + lego_mindstom_ntx2_mac_address + lego_mindstom_ntx2_duration
+    actions = lego_mindstom_ntx2_move_forward + lego_mindstom_ntx2_move_backward + lego_mindstom_ntx2_rotate_right + lego_mindstom_ntx2_rotate_left + lego_mindstom_ntx2_stop_move
     entities in Lego_mindstom_ntx2
 }
 
@@ -97,6 +97,19 @@ one sig lego_mindstom_ntx2_mac_address extends Attribute {} {
     type = core/String_DataType
     mutable = True
     required = True
+    no default
+    no description
+    multiple_values = False
+}
+
+//
+// OCCI attribute 'duration'
+//
+one sig lego_mindstom_ntx2_duration extends Attribute {} {
+    name = "duration"
+    type = core/Number_DataType
+    mutable = True
+    required = False
     no default
     no description
     multiple_values = False
@@ -157,28 +170,6 @@ one sig lego_mindstom_ntx2_stop_move extends Action {} {
 }
 
 
-//
-// OCCI action 'http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#exit'
-//
-one sig lego_mindstom_ntx2_exit extends Action {} {
-    term = "exit"
-    scheme = "http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#"
-    title = "Close connection"
-    no attributes
-}
-
-
-//
-// OCCI action 'http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#connection'
-//
-one sig lego_mindstom_ntx2_connection extends Action {} {
-    term = "connection"
-    scheme = "http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#"
-    title = "Connect to the drone"
-    no attributes
-}
-
-
 // ======================================================================
 // Signature for Lego_mindstom_ntx2
 // ======================================================================
@@ -188,6 +179,7 @@ sig Lego_mindstom_ntx2 extends core/Resource {
     angle : lone core/Number,
     move_speed : lone core/Number,
     mac_address : one String,
+    duration : lone core/Number,
 } {
     hasKind[lego_mindstom_ntx2]
 }

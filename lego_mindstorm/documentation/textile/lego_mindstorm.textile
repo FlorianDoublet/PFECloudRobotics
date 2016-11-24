@@ -24,6 +24,7 @@ Attributes of lego_mindstom_ntx2 are:
 | angle | <a href="core.textile#datatype-number">Number</a> | false | true |  |  |
 | move_speed | <a href="core.textile#datatype-number">Number</a> | false | true |  |  |
 | mac_address | <a href="core.textile#datatype-string">String</a> | true | true |  |  |
+| duration | <a href="core.textile#datatype-number">Number</a> | false | true |  |  |
 
 Actions of lego_mindstom_ntx2 are:
 
@@ -33,8 +34,6 @@ Actions of lego_mindstom_ntx2 are:
 | rotate_right | http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action# |  | Rotate right |
 | rotate_left | http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action# |  | Rotate left |
 | stop_move | http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action# |  | Stop move |
-| exit | http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action# |  | Close connection |
-| connection | http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action# |  | Connect to the drone |
 
 
-Generated at Thu Nov 17 15:55:12 CET 2016 from platform:/resource/lego_mindstorm/model/lego_mindstorm.occie by org.occiware.clouddesigner.occi.gen.doc
+Generated at Thu Nov 24 16:07:25 CET 2016 from platform:/resource/lego_mindstorm/model/lego_mindstorm.occie by org.occiware.clouddesigner.occi.gen.doc

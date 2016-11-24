@@ -14,13 +14,14 @@
     <attributes name="mac_address" required="true">
       <type href="http://schemas.ogf.org/occi/core#//@types.0"/>
     </attributes>
+    <attributes name="duration">
+      <type href="http://schemas.ogf.org/occi/core#//@types.2"/>
+    </attributes>
     <parent href="http://schemas.ogf.org/occi/core#//@kinds[term='resource']"/>
     <actions term="move_forward" scheme="http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#" title="Move forward"/>
     <actions term="move_backward" scheme="http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#" title="Move backward"/>
     <actions term="rotate_right" scheme="http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#" title="Rotate right"/>
     <actions term="rotate_left" scheme="http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#" title="Rotate left"/>
     <actions term="stop_move" scheme="http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#" title="Stop move"/>
-    <actions term="exit" scheme="http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#" title="Close connection"/>
-    <actions term="connection" scheme="http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#" title="Connect to the drone"/>
   </kinds>
 </occi:Extension>

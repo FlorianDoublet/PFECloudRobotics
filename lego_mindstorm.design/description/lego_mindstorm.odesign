@@ -81,6 +81,15 @@
               <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
             </style>
           </subNodeMappings>
+          <subNodeMappings name="Lego_mindstom_ntx2Duration"
+                labelDirectEdit="//@ownedViewpoints[name='Lego_mindstormConfiguration']/@ownedRepresentations[name='Lego_mindstormConfiguration%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='EditLego_mindstom_ntx2Duration']"
+                semanticCandidatesExpression="[self/]" domainClass="Lego_mindstom_ntx2">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['duration = ' + self.duration.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
           <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="10" labelExpression="[self.title + ': Lego_mindstom_ntx2'/]" roundedCorner="true">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
@@ -151,6 +160,12 @@
               <firstModelOperations xsi:type="tool_1:SetValue" featureName="mac_address" valueExpression="var:arg0"/>
             </initialOperation>
           </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditLego_mindstom_ntx2Duration" inputLabelExpression="feature:duration">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="duration" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
           <ownedTools xsi:type="tool_1:OperationAction" name="Lego_mindstom_ntx2Move_forwardAction" label="Move_forward" precondition="[self.oclIsKindOf(Lego_mindstom_ntx2)/]">
             <view name="views"/>
             <initialOperation>
@@ -179,18 +194,6 @@
             <view name="views"/>
             <initialOperation>
               <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.oclAsType(Lego_mindstom_ntx2).stop_move()/]"/>
-            </initialOperation>
-          </ownedTools>
-          <ownedTools xsi:type="tool_1:OperationAction" name="Lego_mindstom_ntx2ExitAction" label="Exit" precondition="[self.oclIsKindOf(Lego_mindstom_ntx2)/]">
-            <view name="views"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.oclAsType(Lego_mindstom_ntx2).exit()/]"/>
-            </initialOperation>
-          </ownedTools>
-          <ownedTools xsi:type="tool_1:OperationAction" name="Lego_mindstom_ntx2ConnectionAction" label="Connection" precondition="[self.oclIsKindOf(Lego_mindstom_ntx2)/]">
-            <view name="views"/>
-            <initialOperation>
-              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.oclAsType(Lego_mindstom_ntx2).connection()/]"/>
             </initialOperation>
           </ownedTools>
           <ownedTools xsi:type="tool_1:PopupMenu" name="CRUD operations" precondition="[self.oclIsKindOf(Entity)/]">
