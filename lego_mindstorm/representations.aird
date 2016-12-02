@@ -149,7 +149,7 @@
               <styles xmi:type="notation:FilteringStyle" xmi:id="_EYyPwqzIEear9ILcf0z_kA"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_EYVj0azIEear9ILcf0z_kA" fontName="Segoe UI" fontHeight="12" bold="true"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EYVj0qzIEear9ILcf0z_kA" x="545" y="245" height="203"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EYVj0qzIEear9ILcf0z_kA" x="530" y="245" width="179" height="218"/>
           </children>
           <styles xmi:type="notation:DiagramStyle" xmi:id="_7f3uUqzHEear9ILcf0z_kA"/>
           <edges xmi:type="notation:Edge" xmi:id="_7hNLEKzHEear9ILcf0z_kA" type="4001" element="_7fkMbazHEear9ILcf0z_kA" source="_7gnVN6zHEear9ILcf0z_kA" target="_7gnVMKzHEear9ILcf0z_kA">
@@ -197,7 +197,7 @@
             <styles xmi:type="notation:ConnectorStyle" xmi:id="_JEyr4azIEear9ILcf0z_kA"/>
             <styles xmi:type="notation:FontStyle" xmi:id="_JEyr4qzIEear9ILcf0z_kA" fontName="Segoe UI" fontHeight="8"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JEyr46zIEear9ILcf0z_kA" points="[0, 0, 5, 62]$[-5, -62, 0, 0]"/>
-            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JEyr6qzIEear9ILcf0z_kA" id="(0.7407407407407407,0.0)"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JEyr6qzIEear9ILcf0z_kA" id="(0.7627118644067796,0.0)"/>
             <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JEyr66zIEear9ILcf0z_kA" id="(0.3089887640449438,1.0)"/>
           </edges>
         </data>

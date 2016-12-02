@@ -173,6 +173,7 @@ public class Lego_mindstom_ntx2Connector extends lego_mindstorm.impl.Lego_mindst
 		LOGGER.debug("Action stop_move() called on " + this);
 
 		// TODO: Implement how to stop_move this lego_mindstom_ntx2.
+		mindstormControl.stop();
 	}
 	
 	/**
@@ -185,9 +186,8 @@ public class Lego_mindstom_ntx2Connector extends lego_mindstorm.impl.Lego_mindst
 		// TODO: Implement how to connection this lego_mindstom_ntx2.
 		mindstormControl.BTconnect();
 		try {
-			Thread.sleep(1000);
+			Thread.sleep(500);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
