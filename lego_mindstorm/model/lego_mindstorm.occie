@@ -24,4 +24,12 @@
     <actions term="rotate_left" scheme="http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#" title="Rotate left"/>
     <actions term="stop_move" scheme="http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#" title="Stop move"/>
   </kinds>
+  <kinds term="robotgator" scheme="http://occiware.org/lego_mindstorm#" parent="//@kinds[term='lego_mindstom_ntx2']">
+    <attributes name="ultra_sound_value">
+      <type href="http://schemas.ogf.org/occi/core#//@types.2"/>
+    </attributes>
+    <actions term="open_mouth" scheme="http://occiware.org/lego_mindstorm/robotgator/action#"/>
+    <actions term="close_mouth" scheme="http://occiware.org/lego_mindstorm/robotgator/action#"/>
+    <actions term="read_ultra_sound" scheme="http://occiware.org/lego_mindstorm/robotgator/action#"/>
+  </kinds>
 </occi:Extension>

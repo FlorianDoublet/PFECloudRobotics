@@ -40,6 +40,15 @@ public interface Lego_mindstormFactory extends EFactory {
 	Lego_mindstom_ntx2 createLego_mindstom_ntx2();
 
 	/**
+	 * Returns a new object of class '<em>Robotgator</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Robotgator</em>'.
+	 * @generated
+	 */
+	Robotgator createRobotgator();
+
+	/**
 	 * Returns the package supported by this factory.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->

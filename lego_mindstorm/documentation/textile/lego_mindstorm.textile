@@ -36,4 +36,24 @@ Actions of lego_mindstom_ntx2 are:
 | stop_move | http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action# |  | Stop move |
 
 
-Generated at Thu Nov 24 16:07:25 CET 2016 from platform:/resource/lego_mindstorm/model/lego_mindstorm.occie by org.occiware.clouddesigner.occi.gen.doc
+h2. Kind robotgator
+
+| *Term* | robotgator |
+| *Scheme* | http://occiware.org/lego_mindstorm# |
+| *Title* |  |
+| *Parent* | <a href="lego_mindstorm.textile#kind-lego_mindstom_ntx2">http://occiware.org/lego_mindstorm#lego_mindstom_ntx2</a> |
+
+Attributes of robotgator are:
+
+| *Attribute* | *Type* | *Required* | *Mutable* | *Default* | *Description* |
+| ultra_sound_value | <a href="core.textile#datatype-number">Number</a> | false | true |  |  |
+
+Actions of robotgator are:
+
+| *Term* | *Scheme* | *Attributes* | *Title* |
+| open_mouth | http://occiware.org/lego_mindstorm/robotgator/action# |  |  |
+| close_mouth | http://occiware.org/lego_mindstorm/robotgator/action# |  |  |
+| read_ultra_sound | http://occiware.org/lego_mindstorm/robotgator/action# |  |  |
+
+
+Generated at Thu Dec 15 14:28:20 CET 2016 from platform:/resource/lego_mindstorm/model/lego_mindstorm.occie by org.occiware.clouddesigner.occi.gen.doc

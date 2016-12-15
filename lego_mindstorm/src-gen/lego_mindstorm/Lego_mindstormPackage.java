@@ -286,6 +286,260 @@ public interface Lego_mindstormPackage extends EPackage {
 
 
 	/**
+	 * The meta object id for the '{@link lego_mindstorm.impl.RobotgatorImpl <em>Robotgator</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see lego_mindstorm.impl.RobotgatorImpl
+	 * @see lego_mindstorm.impl.Lego_mindstormPackageImpl#getRobotgator()
+	 * @generated
+	 */
+	int ROBOTGATOR = 1;
+
+	/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROBOTGATOR__ID = LEGO_MINDSTOM_NTX2__ID;
+
+	/**
+	 * The feature id for the '<em><b>Title</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROBOTGATOR__TITLE = LEGO_MINDSTOM_NTX2__TITLE;
+
+	/**
+	 * The feature id for the '<em><b>Kind</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROBOTGATOR__KIND = LEGO_MINDSTOM_NTX2__KIND;
+
+	/**
+	 * The feature id for the '<em><b>Mixins</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROBOTGATOR__MIXINS = LEGO_MINDSTOM_NTX2__MIXINS;
+
+	/**
+	 * The feature id for the '<em><b>Attributes</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROBOTGATOR__ATTRIBUTES = LEGO_MINDSTOM_NTX2__ATTRIBUTES;
+
+	/**
+	 * The feature id for the '<em><b>Summary</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROBOTGATOR__SUMMARY = LEGO_MINDSTOM_NTX2__SUMMARY;
+
+	/**
+	 * The feature id for the '<em><b>Links</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROBOTGATOR__LINKS = LEGO_MINDSTOM_NTX2__LINKS;
+
+	/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROBOTGATOR__NAME = LEGO_MINDSTOM_NTX2__NAME;
+
+	/**
+	 * The feature id for the '<em><b>Angle</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROBOTGATOR__ANGLE = LEGO_MINDSTOM_NTX2__ANGLE;
+
+	/**
+	 * The feature id for the '<em><b>Move speed</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROBOTGATOR__MOVE_SPEED = LEGO_MINDSTOM_NTX2__MOVE_SPEED;
+
+	/**
+	 * The feature id for the '<em><b>Mac address</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROBOTGATOR__MAC_ADDRESS = LEGO_MINDSTOM_NTX2__MAC_ADDRESS;
+
+	/**
+	 * The feature id for the '<em><b>Duration</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROBOTGATOR__DURATION = LEGO_MINDSTOM_NTX2__DURATION;
+
+	/**
+	 * The feature id for the '<em><b>Ultra sound value</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROBOTGATOR__ULTRA_SOUND_VALUE = LEGO_MINDSTOM_NTX2_FEATURE_COUNT + 0;
+
+	/**
+	 * The number of structural features of the '<em>Robotgator</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROBOTGATOR_FEATURE_COUNT = LEGO_MINDSTOM_NTX2_FEATURE_COUNT + 1;
+
+	/**
+	 * The operation id for the '<em>Occi Create</em>' operation.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROBOTGATOR___OCCI_CREATE = LEGO_MINDSTOM_NTX2___OCCI_CREATE;
+
+	/**
+	 * The operation id for the '<em>Occi Retrieve</em>' operation.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROBOTGATOR___OCCI_RETRIEVE = LEGO_MINDSTOM_NTX2___OCCI_RETRIEVE;
+
+	/**
+	 * The operation id for the '<em>Occi Update</em>' operation.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROBOTGATOR___OCCI_UPDATE = LEGO_MINDSTOM_NTX2___OCCI_UPDATE;
+
+	/**
+	 * The operation id for the '<em>Occi Delete</em>' operation.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROBOTGATOR___OCCI_DELETE = LEGO_MINDSTOM_NTX2___OCCI_DELETE;
+
+	/**
+	 * The operation id for the '<em>Move forward</em>' operation.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROBOTGATOR___MOVE_FORWARD = LEGO_MINDSTOM_NTX2___MOVE_FORWARD;
+
+	/**
+	 * The operation id for the '<em>Move backward</em>' operation.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROBOTGATOR___MOVE_BACKWARD = LEGO_MINDSTOM_NTX2___MOVE_BACKWARD;
+
+	/**
+	 * The operation id for the '<em>Rotate right</em>' operation.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROBOTGATOR___ROTATE_RIGHT = LEGO_MINDSTOM_NTX2___ROTATE_RIGHT;
+
+	/**
+	 * The operation id for the '<em>Rotate left</em>' operation.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROBOTGATOR___ROTATE_LEFT = LEGO_MINDSTOM_NTX2___ROTATE_LEFT;
+
+	/**
+	 * The operation id for the '<em>Stop move</em>' operation.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROBOTGATOR___STOP_MOVE = LEGO_MINDSTOM_NTX2___STOP_MOVE;
+
+	/**
+	 * The operation id for the '<em>Open mouth</em>' operation.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROBOTGATOR___OPEN_MOUTH = LEGO_MINDSTOM_NTX2_OPERATION_COUNT + 0;
+
+	/**
+	 * The operation id for the '<em>Close mouth</em>' operation.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROBOTGATOR___CLOSE_MOUTH = LEGO_MINDSTOM_NTX2_OPERATION_COUNT + 1;
+
+	/**
+	 * The operation id for the '<em>Read ultra sound</em>' operation.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROBOTGATOR___READ_ULTRA_SOUND = LEGO_MINDSTOM_NTX2_OPERATION_COUNT + 2;
+
+	/**
+	 * The number of operations of the '<em>Robotgator</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROBOTGATOR_OPERATION_COUNT = LEGO_MINDSTOM_NTX2_OPERATION_COUNT + 3;
+
+
+	/**
 	 * Returns the meta object for class '{@link lego_mindstorm.Lego_mindstom_ntx2 <em>Lego mindstom ntx2</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -401,6 +655,57 @@ public interface Lego_mindstormPackage extends EPackage {
 	EOperation getLego_mindstom_ntx2__Stop_move();
 
 	/**
+	 * Returns the meta object for class '{@link lego_mindstorm.Robotgator <em>Robotgator</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Robotgator</em>'.
+	 * @see lego_mindstorm.Robotgator
+	 * @generated
+	 */
+	EClass getRobotgator();
+
+	/**
+	 * Returns the meta object for the attribute '{@link lego_mindstorm.Robotgator#getUltra_sound_value <em>Ultra sound value</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Ultra sound value</em>'.
+	 * @see lego_mindstorm.Robotgator#getUltra_sound_value()
+	 * @see #getRobotgator()
+	 * @generated
+	 */
+	EAttribute getRobotgator_Ultra_sound_value();
+
+	/**
+	 * Returns the meta object for the '{@link lego_mindstorm.Robotgator#open_mouth() <em>Open mouth</em>}' operation.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the '<em>Open mouth</em>' operation.
+	 * @see lego_mindstorm.Robotgator#open_mouth()
+	 * @generated
+	 */
+	EOperation getRobotgator__Open_mouth();
+
+	/**
+	 * Returns the meta object for the '{@link lego_mindstorm.Robotgator#close_mouth() <em>Close mouth</em>}' operation.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the '<em>Close mouth</em>' operation.
+	 * @see lego_mindstorm.Robotgator#close_mouth()
+	 * @generated
+	 */
+	EOperation getRobotgator__Close_mouth();
+
+	/**
+	 * Returns the meta object for the '{@link lego_mindstorm.Robotgator#read_ultra_sound() <em>Read ultra sound</em>}' operation.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the '<em>Read ultra sound</em>' operation.
+	 * @see lego_mindstorm.Robotgator#read_ultra_sound()
+	 * @generated
+	 */
+	EOperation getRobotgator__Read_ultra_sound();
+
+	/**
 	 * Returns the factory that creates the instances of the model.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -512,6 +817,48 @@ public interface Lego_mindstormPackage extends EPackage {
 		 * @generated
 		 */
 		EOperation LEGO_MINDSTOM_NTX2___STOP_MOVE = eINSTANCE.getLego_mindstom_ntx2__Stop_move();
+
+		/**
+		 * The meta object literal for the '{@link lego_mindstorm.impl.RobotgatorImpl <em>Robotgator</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see lego_mindstorm.impl.RobotgatorImpl
+		 * @see lego_mindstorm.impl.Lego_mindstormPackageImpl#getRobotgator()
+		 * @generated
+		 */
+		EClass ROBOTGATOR = eINSTANCE.getRobotgator();
+
+		/**
+		 * The meta object literal for the '<em><b>Ultra sound value</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ROBOTGATOR__ULTRA_SOUND_VALUE = eINSTANCE.getRobotgator_Ultra_sound_value();
+
+		/**
+		 * The meta object literal for the '<em><b>Open mouth</b></em>' operation.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EOperation ROBOTGATOR___OPEN_MOUTH = eINSTANCE.getRobotgator__Open_mouth();
+
+		/**
+		 * The meta object literal for the '<em><b>Close mouth</b></em>' operation.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EOperation ROBOTGATOR___CLOSE_MOUTH = eINSTANCE.getRobotgator__Close_mouth();
+
+		/**
+		 * The meta object literal for the '<em><b>Read ultra sound</b></em>' operation.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EOperation ROBOTGATOR___READ_ULTRA_SOUND = eINSTANCE.getRobotgator__Read_ultra_sound();
 
 	}
 

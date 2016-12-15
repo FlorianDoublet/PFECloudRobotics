@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generated at Thu Nov 24 14:18:33 CET 2016 from http://schemas.ogf.org/occi/core by org.occiware.clouddesigner.occi.gen.xml -->
+<!-- Generated at Thu Dec 15 10:35:23 CET 2016 from http://schemas.ogf.org/occi/core by org.occiware.clouddesigner.occi.gen.xml -->
 <occi:extension xmlns:occi="http://schemas.ogf.org/occi"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"

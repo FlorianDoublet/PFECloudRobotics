@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generated at Thu Nov 24 14:18:33 CET 2016 from platform:/resource/lego_mindstorm/model/lego_mindstorm.occie by org.occiware.clouddesigner.occi.gen.xml -->
+<!-- Generated at Thu Dec 15 10:35:23 CET 2016 from platform:/resource/lego_mindstorm/model/lego_mindstorm.occie by org.occiware.clouddesigner.occi.gen.xml -->
 <occi:extension xmlns:occi="http://schemas.ogf.org/occi"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -16,6 +16,7 @@
     <occi:attribute name="angle" use="optional" type="xs:integer" title=""/>
     <occi:attribute name="move_speed" use="optional" type="xs:integer" title=""/>
     <occi:attribute name="mac_address" use="required" type="xs:string" title=""/>
+    <occi:attribute name="duration" use="optional" type="xs:integer" title=""/>
     <occi:action term="move_forward" scheme="http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#" title="Move forward">
     </occi:action>
     <occi:action term="move_backward" scheme="http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#" title="Move backward">
@@ -25,6 +26,18 @@
     <occi:action term="rotate_left" scheme="http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#" title="Rotate left">
     </occi:action>
     <occi:action term="stop_move" scheme="http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#" title="Stop move">
+    </occi:action>
+  </occi:kind>
+
+  <!-- Kind:  -->
+  <occi:kind term="robotgator" scheme="http://occiware.org/lego_mindstorm#" title="">
+    <occi:parent term="lego_mindstom_ntx2" scheme="http://occiware.org/lego_mindstorm#"/>
+    <occi:attribute name="ultra_sound_value" use="optional" type="xs:integer" title=""/>
+    <occi:action term="open_mouth" scheme="http://occiware.org/lego_mindstorm/robotgator/action#" title="">
+    </occi:action>
+    <occi:action term="close_mouth" scheme="http://occiware.org/lego_mindstorm/robotgator/action#" title="">
+    </occi:action>
+    <occi:action term="read_ultra_sound" scheme="http://occiware.org/lego_mindstorm/robotgator/action#" title="">
     </occi:action>
   </occi:kind>
 

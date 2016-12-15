@@ -149,7 +149,32 @@
               <styles xmi:type="notation:FilteringStyle" xmi:id="_EYyPwqzIEear9ILcf0z_kA"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_EYVj0azIEear9ILcf0z_kA" fontName="Segoe UI" fontHeight="12" bold="true"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EYVj0qzIEear9ILcf0z_kA" x="530" y="245" width="179" height="218"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EYVj0qzIEear9ILcf0z_kA" x="465" y="250" width="179" height="218"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_W8dvsMKoEeaUEYwD4WZfWg" type="2003" element="_W7uI0MKoEeaUEYwD4WZfWg">
+            <children xmi:type="notation:Node" xmi:id="_W8dvs8KoEeaUEYwD4WZfWg" type="5007"/>
+            <children xmi:type="notation:Node" xmi:id="_W8dvtMKoEeaUEYwD4WZfWg" type="7004">
+              <children xmi:type="notation:Node" xmi:id="_d0FHwMKoEeaUEYwD4WZfWg" type="3010" element="_dzyM0MKoEeaUEYwD4WZfWg">
+                <styles xmi:type="notation:FontStyle" xmi:id="_d0FHwcKoEeaUEYwD4WZfWg" fontName="Segoe UI" fontHeight="10"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_d0FHwsKoEeaUEYwD4WZfWg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_m8alQMKoEeaUEYwD4WZfWg" type="3010" element="_m8HDQMKoEeaUEYwD4WZfWg">
+                <styles xmi:type="notation:FontStyle" xmi:id="_m8alQcKoEeaUEYwD4WZfWg" fontName="Segoe UI" fontHeight="10"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_m8alQsKoEeaUEYwD4WZfWg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_oRcegMKoEeaUEYwD4WZfWg" type="3010" element="_oRJjkMKoEeaUEYwD4WZfWg">
+                <styles xmi:type="notation:FontStyle" xmi:id="_oRcegcKoEeaUEYwD4WZfWg" fontName="Segoe UI" fontHeight="10"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_oRcegsKoEeaUEYwD4WZfWg"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_p81pUMKoEeaUEYwD4WZfWg" type="3010" element="_p8iHUMKoEeaUEYwD4WZfWg">
+                <styles xmi:type="notation:FontStyle" xmi:id="_p81pUcKoEeaUEYwD4WZfWg" fontName="Segoe UI" fontHeight="10"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_p81pUsKoEeaUEYwD4WZfWg"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_W8dvtcKoEeaUEYwD4WZfWg"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_W8dvtsKoEeaUEYwD4WZfWg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_W8dvscKoEeaUEYwD4WZfWg" fontName="Segoe UI" fontHeight="12" bold="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W8dvssKoEeaUEYwD4WZfWg" x="460" y="520" width="202" height="138"/>
           </children>
           <styles xmi:type="notation:DiagramStyle" xmi:id="_7f3uUqzHEear9ILcf0z_kA"/>
           <edges xmi:type="notation:Edge" xmi:id="_7hNLEKzHEear9ILcf0z_kA" type="4001" element="_7fkMbazHEear9ILcf0z_kA" source="_7gnVN6zHEear9ILcf0z_kA" target="_7gnVMKzHEear9ILcf0z_kA">
@@ -186,19 +211,35 @@
           </edges>
           <edges xmi:type="notation:Edge" xmi:id="_JEyr4KzIEear9ILcf0z_kA" type="4001" element="_JDdPIKzIEear9ILcf0z_kA" source="_EYVj0KzIEear9ILcf0z_kA" target="_7gnVN6zHEear9ILcf0z_kA">
             <children xmi:type="notation:Node" xmi:id="_JEyr5KzIEear9ILcf0z_kA" type="6001">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JEyr5azIEear9ILcf0z_kA" x="9" y="-9"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JEyr5azIEear9ILcf0z_kA" x="9" y="-4"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_JEyr5qzIEear9ILcf0z_kA" type="6002">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JEyr56zIEear9ILcf0z_kA" x="-7" y="7"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JEyr56zIEear9ILcf0z_kA" x="-8"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_JEyr6KzIEear9ILcf0z_kA" type="6003">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JEyr6azIEear9ILcf0z_kA" x="-7" y="6"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JEyr6azIEear9ILcf0z_kA" x="-6"/>
             </children>
             <styles xmi:type="notation:ConnectorStyle" xmi:id="_JEyr4azIEear9ILcf0z_kA"/>
             <styles xmi:type="notation:FontStyle" xmi:id="_JEyr4qzIEear9ILcf0z_kA" fontName="Segoe UI" fontHeight="8"/>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JEyr46zIEear9ILcf0z_kA" points="[0, 0, 5, 62]$[-5, -62, 0, 0]"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JEyr46zIEear9ILcf0z_kA" points="[0, 0, -60, 67]$[60, -67, 0, 0]"/>
             <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JEyr6qzIEear9ILcf0z_kA" id="(0.7627118644067796,0.0)"/>
             <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JEyr66zIEear9ILcf0z_kA" id="(0.3089887640449438,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_5bxcgMKoEeaUEYwD4WZfWg" type="4001" element="_5bd6gMKoEeaUEYwD4WZfWg" source="_W8dvsMKoEeaUEYwD4WZfWg" target="_EYVj0KzIEear9ILcf0z_kA">
+            <children xmi:type="notation:Node" xmi:id="_5bxchMKoEeaUEYwD4WZfWg" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5bxchcKoEeaUEYwD4WZfWg" x="-2" y="-11"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_5bxchsKoEeaUEYwD4WZfWg" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5bxch8KoEeaUEYwD4WZfWg" x="2" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_5bxciMKoEeaUEYwD4WZfWg" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5bxcicKoEeaUEYwD4WZfWg" x="1" y="7"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_5bxcgcKoEeaUEYwD4WZfWg"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_5bxcgsKoEeaUEYwD4WZfWg" fontName="Segoe UI" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5bxcg8KoEeaUEYwD4WZfWg" points="[0, 0, -10, 54]$[10, -54, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5bxcisKoEeaUEYwD4WZfWg" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5bxci8KoEeaUEYwD4WZfWg" id="(0.5932203389830508,1.0)"/>
           </edges>
         </data>
       </ownedAnnotationEntries>
@@ -331,7 +372,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@edgeMappings[name='ParentEdge']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_EXcL8KzIEear9ILcf0z_kA" name="lego_mindstom_ntx2" outgoingEdges="_JDdPIKzIEear9ILcf0z_kA">
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_EXcL8KzIEear9ILcf0z_kA" name="lego_mindstom_ntx2" outgoingEdges="_JDdPIKzIEear9ILcf0z_kA" incomingEdges="_5bd6gMKoEeaUEYwD4WZfWg">
         <target xmi:type="occi:Kind" href="model/lego_mindstorm.occie#//@kinds[term='lego_mindstom_ntx2']"/>
         <semanticElements xmi:type="occi:Kind" href="model/lego_mindstorm.occie#//@kinds[term='lego_mindstom_ntx2']"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -430,6 +471,58 @@
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_JDdPIazIEear9ILcf0z_kA" targetArrow="InputClosedArrow" size="2">
           <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@edgeMappings[name='ParentEdge']/@style"/>
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_JDdPIqzIEear9ILcf0z_kA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@edgeMappings[name='ParentEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_W7uI0MKoEeaUEYwD4WZfWg" name="robotgator" outgoingEdges="_5bd6gMKoEeaUEYwD4WZfWg">
+        <target xmi:type="occi:Kind" href="model/lego_mindstorm.occie#//@kinds[term='robotgator']"/>
+        <semanticElements xmi:type="occi:Kind" href="model/lego_mindstorm.occie#//@kinds[term='robotgator']"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_W7350MKoEeaUEYwD4WZfWg" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" borderColor="0,47,0" backgroundStyle="GradientTopToBottom" backgroundColor="187,242,196" foregroundColor="255,255,255">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_dzyM0MKoEeaUEYwD4WZfWg" name="ultra_sound_value: Number">
+          <target xmi:type="occi:Attribute" href="model/lego_mindstorm.occie#//@kinds[term='robotgator']/@attributes.0"/>
+          <semanticElements xmi:type="occi:Attribute" href="model/lego_mindstorm.occie#//@kinds[term='robotgator']/@attributes.0"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_dzyM0cKoEeaUEYwD4WZfWg" labelSize="10" labelAlignment="LEFT" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAttribute']/@conditionnalStyles.2/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAttribute']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_m8HDQMKoEeaUEYwD4WZfWg" name="open_mouth()">
+          <target xmi:type="occi:Action" href="model/lego_mindstorm.occie#//@kinds[term='robotgator']/@actions.0"/>
+          <semanticElements xmi:type="occi:Action" href="model/lego_mindstorm.occie#//@kinds[term='robotgator']/@actions.0"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_m8HDQcKoEeaUEYwD4WZfWg" labelSize="10" labelAlignment="LEFT" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAction']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAction']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_oRJjkMKoEeaUEYwD4WZfWg" name="close_mouth()">
+          <target xmi:type="occi:Action" href="model/lego_mindstorm.occie#//@kinds[term='robotgator']/@actions.1"/>
+          <semanticElements xmi:type="occi:Action" href="model/lego_mindstorm.occie#//@kinds[term='robotgator']/@actions.1"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_oRJjkcKoEeaUEYwD4WZfWg" labelSize="10" labelAlignment="LEFT" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAction']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAction']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_p8iHUMKoEeaUEYwD4WZfWg" name="read_ultra_sound()">
+          <target xmi:type="occi:Action" href="model/lego_mindstorm.occie#//@kinds[term='robotgator']/@actions.2"/>
+          <semanticElements xmi:type="occi:Action" href="model/lego_mindstorm.occie#//@kinds[term='robotgator']/@actions.2"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_p8iHUcKoEeaUEYwD4WZfWg" labelSize="10" labelAlignment="LEFT" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAction']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAction']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_5bd6gMKoEeaUEYwD4WZfWg" sourceNode="_W7uI0MKoEeaUEYwD4WZfWg" targetNode="_EXcL8KzIEear9ILcf0z_kA">
+        <target xmi:type="occi:Kind" href="model/lego_mindstorm.occie#//@kinds[term='robotgator']"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_5bd6gcKoEeaUEYwD4WZfWg" targetArrow="InputClosedArrow" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@edgeMappings[name='ParentEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_5bd6gsKoEeaUEYwD4WZfWg"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@edgeMappings[name='ParentEdge']"/>
       </ownedDiagramElements>

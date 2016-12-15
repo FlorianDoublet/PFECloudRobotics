@@ -86,6 +86,15 @@ public class Lego_mindstormSwitch<T> extends Switch<T> {
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
+			case Lego_mindstormPackage.ROBOTGATOR: {
+				Robotgator robotgator = (Robotgator)theEObject;
+				T result = caseRobotgator(robotgator);
+				if (result == null) result = caseLego_mindstom_ntx2(robotgator);
+				if (result == null) result = caseResource(robotgator);
+				if (result == null) result = caseEntity(robotgator);
+				if (result == null) result = defaultCase(theEObject);
+				return result;
+			}
 			default: return defaultCase(theEObject);
 		}
 	}
@@ -102,6 +111,21 @@ public class Lego_mindstormSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseLego_mindstom_ntx2(Lego_mindstom_ntx2 object) {
+		return null;
+	}
+
+	/**
+	 * Returns the result of interpreting the object as an instance of '<em>Robotgator</em>'.
+	 * <!-- begin-user-doc -->
+	 * This implementation returns null;
+	 * returning a non-null result will terminate the switch.
+	 * <!-- end-user-doc -->
+	 * @param object the target of the switch.
+	 * @return the result of interpreting the object as an instance of '<em>Robotgator</em>'.
+	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+	 * @generated
+	 */
+	public T caseRobotgator(Robotgator object) {
 		return null;
 	}
 

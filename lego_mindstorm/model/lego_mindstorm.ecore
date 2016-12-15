@@ -58,4 +58,29 @@
       </eAnnotations>
     </eStructuralFeatures>
   </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Robotgator" eSuperTypes="#//Lego_mindstom_ntx2">
+    <eAnnotations source="OCCIE2Ecore">
+      <details key="title"/>
+    </eAnnotations>
+    <eOperations name="open_mouth">
+      <eAnnotations source="OCCIE2Ecore">
+        <details key="title"/>
+      </eAnnotations>
+    </eOperations>
+    <eOperations name="close_mouth">
+      <eAnnotations source="OCCIE2Ecore">
+        <details key="title"/>
+      </eAnnotations>
+    </eOperations>
+    <eOperations name="read_ultra_sound">
+      <eAnnotations source="OCCIE2Ecore">
+        <details key="title"/>
+      </eAnnotations>
+    </eOperations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ultra_sound_value" eType="ecore:EDataType platform:/plugin/org.occiware.clouddesigner.occi/model/OCCI.ecore#//Number">
+      <eAnnotations source="OCCIE2Ecore">
+        <details key="description"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+  </eClassifiers>
 </ecore:EPackage>

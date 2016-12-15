@@ -9,7 +9,7 @@
  * Contributors:
  * - Philippe Merle <philippe.merle@inria.fr>
  *
- * Generated at Thu Nov 24 16:10:41 CET 2016 from platform:/resource/lego_mindstorm/model/lego_mindstorm.occie by org.occiware.clouddesigner.occi.gen.connector
+ * Generated at Thu Dec 15 10:35:46 CET 2016 from platform:/resource/lego_mindstorm/model/lego_mindstorm.occie by org.occiware.clouddesigner.occi.gen.connector
  */
 package lego_mindstorm.connector;
 
@@ -29,6 +29,17 @@ public class ConnectorFactory extends lego_mindstorm.impl.Lego_mindstormFactoryI
 	@Override
 	public lego_mindstorm.Lego_mindstom_ntx2 createLego_mindstom_ntx2() {
 		return new Lego_mindstom_ntx2Connector();
+	}
+
+	/**
+	 * EFactory method for OCCI kind:
+	 * - scheme: http://occiware.org/lego_mindstorm#
+	 * - term: robotgator
+	 * - title: 
+	 */
+	@Override
+	public lego_mindstorm.Robotgator createRobotgator() {
+		return new RobotgatorConnector();
 	}
 
 }

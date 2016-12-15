@@ -36,6 +36,21 @@
         <ecoreOperation href="lego_mindstorm.ecore#//Lego_mindstom_ntx2/stop_move"/>
       </genOperations>
     </genClasses>
+    <genClasses>
+      <ecoreClass href="lego_mindstorm.ecore#//Robotgator"/>
+      <genFeatures createChild="false">
+        <ecoreFeature xsi:type="ecore:EAttribute" href="lego_mindstorm.ecore#//Robotgator/ultra_sound_value"/>
+      </genFeatures>
+      <genOperations>
+        <ecoreOperation href="lego_mindstorm.ecore#//Robotgator/open_mouth"/>
+      </genOperations>
+      <genOperations>
+        <ecoreOperation href="lego_mindstorm.ecore#//Robotgator/close_mouth"/>
+      </genOperations>
+      <genOperations>
+        <ecoreOperation href="lego_mindstorm.ecore#//Robotgator/read_ultra_sound"/>
+      </genOperations>
+    </genClasses>
   </genPackages>
   <usedGenPackages href="platform:/plugin/org.occiware.clouddesigner.occi/model/OCCI.genmodel#//occi"/>
 </genmodel:GenModel>

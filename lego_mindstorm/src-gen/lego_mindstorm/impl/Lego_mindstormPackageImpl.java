@@ -15,6 +15,7 @@ import lego_mindstorm.Lego_mindstom_ntx2;
 import lego_mindstorm.Lego_mindstormFactory;
 import lego_mindstorm.Lego_mindstormPackage;
 
+import lego_mindstorm.Robotgator;
 import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EOperation;
@@ -37,6 +38,13 @@ public class Lego_mindstormPackageImpl extends EPackageImpl implements Lego_mind
 	 * @generated
 	 */
 	private EClass lego_mindstom_ntx2EClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass robotgatorEClass = null;
 
 	/**
 	 * Creates an instance of the model <b>Package</b>, registered with
@@ -206,6 +214,51 @@ public class Lego_mindstormPackageImpl extends EPackageImpl implements Lego_mind
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public EClass getRobotgator() {
+		return robotgatorEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EAttribute getRobotgator_Ultra_sound_value() {
+		return (EAttribute)robotgatorEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EOperation getRobotgator__Open_mouth() {
+		return robotgatorEClass.getEOperations().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EOperation getRobotgator__Close_mouth() {
+		return robotgatorEClass.getEOperations().get(1);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EOperation getRobotgator__Read_ultra_sound() {
+		return robotgatorEClass.getEOperations().get(2);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public Lego_mindstormFactory getLego_mindstormFactory() {
 		return (Lego_mindstormFactory)getEFactoryInstance();
 	}
@@ -240,6 +293,12 @@ public class Lego_mindstormPackageImpl extends EPackageImpl implements Lego_mind
 		createEOperation(lego_mindstom_ntx2EClass, LEGO_MINDSTOM_NTX2___ROTATE_RIGHT);
 		createEOperation(lego_mindstom_ntx2EClass, LEGO_MINDSTOM_NTX2___ROTATE_LEFT);
 		createEOperation(lego_mindstom_ntx2EClass, LEGO_MINDSTOM_NTX2___STOP_MOVE);
+
+		robotgatorEClass = createEClass(ROBOTGATOR);
+		createEAttribute(robotgatorEClass, ROBOTGATOR__ULTRA_SOUND_VALUE);
+		createEOperation(robotgatorEClass, ROBOTGATOR___OPEN_MOUTH);
+		createEOperation(robotgatorEClass, ROBOTGATOR___CLOSE_MOUTH);
+		createEOperation(robotgatorEClass, ROBOTGATOR___READ_ULTRA_SOUND);
 	}
 
 	/**
@@ -274,6 +333,7 @@ public class Lego_mindstormPackageImpl extends EPackageImpl implements Lego_mind
 
 		// Add supertypes to classes
 		lego_mindstom_ntx2EClass.getESuperTypes().add(theOCCIPackage.getResource());
+		robotgatorEClass.getESuperTypes().add(this.getLego_mindstom_ntx2());
 
 		// Initialize classes, features, and operations; add parameters
 		initEClass(lego_mindstom_ntx2EClass, Lego_mindstom_ntx2.class, "Lego_mindstom_ntx2", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
@@ -292,6 +352,15 @@ public class Lego_mindstormPackageImpl extends EPackageImpl implements Lego_mind
 		initEOperation(getLego_mindstom_ntx2__Rotate_left(), null, "rotate_left", 0, 1, IS_UNIQUE, IS_ORDERED);
 
 		initEOperation(getLego_mindstom_ntx2__Stop_move(), null, "stop_move", 0, 1, IS_UNIQUE, IS_ORDERED);
+
+		initEClass(robotgatorEClass, Robotgator.class, "Robotgator", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEAttribute(getRobotgator_Ultra_sound_value(), theOCCIPackage.getNumber(), "ultra_sound_value", null, 0, 1, Robotgator.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+
+		initEOperation(getRobotgator__Open_mouth(), null, "open_mouth", 0, 1, IS_UNIQUE, IS_ORDERED);
+
+		initEOperation(getRobotgator__Close_mouth(), null, "close_mouth", 0, 1, IS_UNIQUE, IS_ORDERED);
+
+		initEOperation(getRobotgator__Read_ultra_sound(), null, "read_ultra_sound", 0, 1, IS_UNIQUE, IS_ORDERED);
 
 		// Create resource
 		createResource(eNS_URI);
@@ -371,6 +440,36 @@ public class Lego_mindstormPackageImpl extends EPackageImpl implements Lego_mind
 		   });	
 		addAnnotation
 		  (getLego_mindstom_ntx2_Duration(), 
+		   source, 
+		   new String[] {
+			 "description", null
+		   });	
+		addAnnotation
+		  (robotgatorEClass, 
+		   source, 
+		   new String[] {
+			 "title", null
+		   });	
+		addAnnotation
+		  (getRobotgator__Open_mouth(), 
+		   source, 
+		   new String[] {
+			 "title", null
+		   });	
+		addAnnotation
+		  (getRobotgator__Close_mouth(), 
+		   source, 
+		   new String[] {
+			 "title", null
+		   });	
+		addAnnotation
+		  (getRobotgator__Read_ultra_sound(), 
+		   source, 
+		   new String[] {
+			 "title", null
+		   });	
+		addAnnotation
+		  (getRobotgator_Ultra_sound_value(), 
 		   source, 
 		   new String[] {
 			 "description", null

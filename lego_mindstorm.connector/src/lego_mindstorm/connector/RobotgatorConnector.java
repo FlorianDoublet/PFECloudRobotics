@@ -23,21 +23,21 @@ import lego_mindstorm.utils.LegoMindstormBasic;
 /**
  * Connector implementation for the OCCI kind:
  * - scheme: http://occiware.org/lego_mindstorm#
- * - term: lego_mindstom_ntx2
+ * - term: robotgator
  * - title: 
  */
-public class Lego_mindstom_ntx2Connector extends lego_mindstorm.impl.Lego_mindstom_ntx2Impl
+public class RobotgatorConnector extends lego_mindstorm.impl.RobotgatorImpl
 {
 	/**
 	 * Initialize the logger.
 	 */
-	private static Logger LOGGER = LoggerFactory.getLogger(Lego_mindstom_ntx2Connector.class);
+	private static Logger LOGGER = LoggerFactory.getLogger(RobotgatorConnector.class);
 	private LegoMindstormBasic mindstormBasic = new LegoMindstormBasic();
 
 	/**
-	 * Constructs a lego_mindstom_ntx2 connector.
+	 * Constructs a robotgator connector.
 	 */
-	Lego_mindstom_ntx2Connector()
+	RobotgatorConnector()
 	{
 		LOGGER.debug("Constructor called on " + this);
 	}
@@ -47,14 +47,14 @@ public class Lego_mindstom_ntx2Connector extends lego_mindstorm.impl.Lego_mindst
 	//
 
 	/**
-	 * Called when this Lego_mindstom_ntx2 instance is completely created.
+	 * Called when this Robotgator instance is completely created.
 	 */
 	@Override
 	public void occiCreate()
 	{
 		LOGGER.debug("occiCreate() called on " + this);
 
-		mindstormBasic.occiCreate("ClapTrap", "00:16:53:10:10:C3");
+		mindstormBasic.occiCreate("Robogator", "00:16:53:13:1B:B0");
 		//default duration
 		this.setDuration(1000);
 		//default angle
@@ -62,7 +62,7 @@ public class Lego_mindstom_ntx2Connector extends lego_mindstorm.impl.Lego_mindst
 	}
 
 	/**
-	 * Called when this Lego_mindstom_ntx2 instance must be retrieved.
+	 * Called when this Robotgator instance must be retrieved.
 	 */
 	@Override
 	public void occiRetrieve()
@@ -73,7 +73,7 @@ public class Lego_mindstom_ntx2Connector extends lego_mindstorm.impl.Lego_mindst
 	}
 
 	/**
-	 * Called when this Lego_mindstom_ntx2 instance is completely updated.
+	 * Called when this Robotgator instance is completely updated.
 	 */
 	@Override
 	public void occiUpdate()
@@ -84,26 +84,66 @@ public class Lego_mindstom_ntx2Connector extends lego_mindstorm.impl.Lego_mindst
 	}
 
 	/**
-	 * Called when this Lego_mindstom_ntx2 instance will be deleted.
+	 * Called when this Robotgator instance will be deleted.
 	 */
 	@Override
 	public void occiDelete()
 	{
 		LOGGER.debug("occiDelete() called on " + this);
+
+		// TODO: Implement this callback or remove this method.
 		mindstormBasic.occiDelete();
-		
 	}
 
 	//
-	// Lego_mindstom_ntx2 actions.
+	// Robotgator actions.
 	//
 
 	/**
 	 * Implement OCCI action:
-     * - scheme: http://occiware.org/lego_mindstorm/lego_mindstom_ntx2/action#
-     * - term: move_forward
-     * - title: Move forward
+     * - scheme: http://occiware.org/lego_mindstorm/robotgator/action#
+     * - term: open_mouth
+     * - title: 
 	 */
+	@Override
+	public void open_mouth()
+	{
+		LOGGER.debug("Action open_mouth() called on " + this);
+
+		// TODO: Implement how to open_mouth this robotgator.
+		mindstormBasic.mindstormControl.openMouth(angle);	
+	}
+
+	/**
+	 * Implement OCCI action:
+     * - scheme: http://occiware.org/lego_mindstorm/robotgator/action#
+     * - term: close_mouth
+     * - title: 
+	 */
+	@Override
+	public void close_mouth()
+	{
+		LOGGER.debug("Action close_mouth() called on " + this);
+
+		// TODO: Implement how to close_mouth this robotgator.
+		mindstormBasic.mindstormControl.closeMouth(angle);
+	}
+
+	/**
+	 * Implement OCCI action:
+     * - scheme: http://occiware.org/lego_mindstorm/robotgator/action#
+     * - term: read_ultra_sound
+     * - title: 
+	 */
+	@Override
+	public void read_ultra_sound()
+	{
+		LOGGER.debug("Action read_ultra_sound() called on " + this);
+
+		// TODO: Implement how to read_ultra_sound this robotgator.
+		this.setUltra_sound_value( mindstormBasic.mindstormControl.getUltraSonic());
+	}
+	
 	@Override
 	public void move_forward()
 	{
@@ -136,7 +176,7 @@ public class Lego_mindstom_ntx2Connector extends lego_mindstorm.impl.Lego_mindst
 	public void rotate_right()
 	{
 		LOGGER.debug("Action rotate_right() called on " + this);
-		mindstormBasic.rotate_right(this.angle);
+		mindstormBasic.rotate_right(this.duration);
 	}
 
 	/**
@@ -150,7 +190,7 @@ public class Lego_mindstom_ntx2Connector extends lego_mindstorm.impl.Lego_mindst
 	{
 		LOGGER.debug("Action rotate_left() called on " + this);
 
-		mindstormBasic.rotate_left(this.angle);
+		mindstormBasic.rotate_left(this.duration);
 	}
 
 	/**
@@ -167,8 +207,5 @@ public class Lego_mindstom_ntx2Connector extends lego_mindstorm.impl.Lego_mindst
 		mindstormBasic.stop_move();
 	}
 	
-	
-	
-
 
 }	

@@ -4,7 +4,7 @@ Bundle-Name: lego_mindstorm.connector
 Bundle-SymbolicName: lego_mindstorm.connector;singleton:=true
 Bundle-Version: 0.1.0.qualifier
 Bundle-ClassPath: .,
- lib/LegoMindstorm2_fat.jar
+ lib/LegoMindstorm2_fat (1).jar
 Bundle-Vendor: OCCIware
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-ActivationPolicy: lazy

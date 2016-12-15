@@ -13,6 +13,14 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
+        <edgeMappings name="RobotgatorLinksEdge" sourceMapping="//@ownedViewpoints[name='Lego_mindstormConfiguration']/@ownedRepresentations[name='Lego_mindstormConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='RobotgatorContainer']" targetMapping="" targetFinderExpression="feature:links">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
         <containerMappings name="Lego_mindstom_ntx2Container"
             labelDirectEdit="//@ownedViewpoints[name='Lego_mindstormConfiguration']/@ownedRepresentations[name='Lego_mindstormConfiguration%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='EditEntityTitle']"
 			semanticCandidatesExpression="feature:resources" 
@@ -98,6 +106,100 @@
           </style> 
 
         </containerMappings>
+        <containerMappings name="RobotgatorContainer"
+            labelDirectEdit="//@ownedViewpoints[name='Lego_mindstormConfiguration']/@ownedRepresentations[name='Lego_mindstormConfiguration%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='EditEntityTitle']"
+			semanticCandidatesExpression="feature:resources" 
+			domainClass="Robotgator"
+            childrenPresentation="List">
+          <subNodeMappings name="RobotgatorId"
+                labelDirectEdit="//@ownedViewpoints[name='Lego_mindstormConfiguration']/@ownedRepresentations[name='Lego_mindstormConfiguration%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='EditRobotgatorId']"
+                semanticCandidatesExpression="[self/]" domainClass="Robotgator">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['id = ' + self.id.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="RobotgatorTitle"
+                labelDirectEdit="//@ownedViewpoints[name='Lego_mindstormConfiguration']/@ownedRepresentations[name='Lego_mindstormConfiguration%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='EditRobotgatorTitle']"
+                semanticCandidatesExpression="[self/]" domainClass="Robotgator">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['title = ' + self.title.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="RobotgatorSummary"
+                labelDirectEdit="//@ownedViewpoints[name='Lego_mindstormConfiguration']/@ownedRepresentations[name='Lego_mindstormConfiguration%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='EditRobotgatorSummary']"
+                semanticCandidatesExpression="[self/]" domainClass="Robotgator">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['summary = ' + self.summary.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="RobotgatorName"
+                labelDirectEdit="//@ownedViewpoints[name='Lego_mindstormConfiguration']/@ownedRepresentations[name='Lego_mindstormConfiguration%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='EditRobotgatorName']"
+                semanticCandidatesExpression="[self/]" domainClass="Robotgator">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['name = ' + self.name.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="RobotgatorAngle"
+                labelDirectEdit="//@ownedViewpoints[name='Lego_mindstormConfiguration']/@ownedRepresentations[name='Lego_mindstormConfiguration%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='EditRobotgatorAngle']"
+                semanticCandidatesExpression="[self/]" domainClass="Robotgator">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['angle = ' + self.angle.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="RobotgatorMove_speed"
+                labelDirectEdit="//@ownedViewpoints[name='Lego_mindstormConfiguration']/@ownedRepresentations[name='Lego_mindstormConfiguration%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='EditRobotgatorMove_speed']"
+                semanticCandidatesExpression="[self/]" domainClass="Robotgator">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['move_speed = ' + self.move_speed.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="RobotgatorMac_address"
+                labelDirectEdit="//@ownedViewpoints[name='Lego_mindstormConfiguration']/@ownedRepresentations[name='Lego_mindstormConfiguration%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='EditRobotgatorMac_address']"
+                semanticCandidatesExpression="[self/]" domainClass="Robotgator">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['mac_address = ' + self.mac_address.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="RobotgatorDuration"
+                labelDirectEdit="//@ownedViewpoints[name='Lego_mindstormConfiguration']/@ownedRepresentations[name='Lego_mindstormConfiguration%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='EditRobotgatorDuration']"
+                semanticCandidatesExpression="[self/]" domainClass="Robotgator">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['duration = ' + self.duration.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="RobotgatorUltra_sound_value"
+                labelDirectEdit="//@ownedViewpoints[name='Lego_mindstormConfiguration']/@ownedRepresentations[name='Lego_mindstormConfiguration%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='EditRobotgatorUltra_sound_value']"
+                semanticCandidatesExpression="[self/]" domainClass="Robotgator">
+            <style xsi:type="style:SquareDescription" labelSize="10" labelExpression="['ultra_sound_value = ' + self.ultra_sound_value.toString()/]" labelAlignment="LEFT" hideLabelByDefault="true" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="10" labelExpression="[self.title + ': Robotgator'/]" roundedCorner="true">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style> 
+
+        </containerMappings>
         <toolSections name="Lego_mindstorm">
           <ownedTools xsi:type="tool:ContainerCreationDescription" 
 			name="Create Lego_mindstom_ntx2"
@@ -107,6 +209,17 @@
             <initialOperation>
               <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="Lego_mindstom_ntx2" referenceName="resources">
                 <subModelOperations xsi:type="tool_1:SetValue" featureName="title" valueExpression="['lego_mindstom_ntx2' + container.oclAsType(Configuration).resources->size().toString()/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" 
+			name="Create Robotgator"
+			containerMappings="//@ownedViewpoints[name='Lego_mindstormConfiguration']/@ownedRepresentations[name='Lego_mindstormConfiguration%20Diagram']/@defaultLayer/@containerMappings[name='RobotgatorContainer']"> 
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="Robotgator" referenceName="resources">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="title" valueExpression="['robotgator' + container.oclAsType(Configuration).resources->size().toString()/]"/>
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
@@ -194,6 +307,108 @@
             <view name="views"/>
             <initialOperation>
               <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.oclAsType(Lego_mindstom_ntx2).stop_move()/]"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditRobotgatorId" inputLabelExpression="feature:id">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="id" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditRobotgatorTitle" inputLabelExpression="feature:title">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="title" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditRobotgatorSummary" inputLabelExpression="feature:summary">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="summary" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditRobotgatorName" inputLabelExpression="feature:name">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditRobotgatorAngle" inputLabelExpression="feature:angle">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="angle" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditRobotgatorMove_speed" inputLabelExpression="feature:move_speed">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="move_speed" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditRobotgatorMac_address" inputLabelExpression="feature:mac_address">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="mac_address" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditRobotgatorDuration" inputLabelExpression="feature:duration">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="duration" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditRobotgatorUltra_sound_value" inputLabelExpression="feature:ultra_sound_value">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="ultra_sound_value" valueExpression="var:arg0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:OperationAction" name="RobotgatorMove_forwardAction" label="Move_forward" precondition="[self.oclIsKindOf(Robotgator)/]">
+            <view name="views"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.oclAsType(Robotgator).move_forward()/]"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:OperationAction" name="RobotgatorMove_backwardAction" label="Move_backward" precondition="[self.oclIsKindOf(Robotgator)/]">
+            <view name="views"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.oclAsType(Robotgator).move_backward()/]"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:OperationAction" name="RobotgatorRotate_rightAction" label="Rotate_right" precondition="[self.oclIsKindOf(Robotgator)/]">
+            <view name="views"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.oclAsType(Robotgator).rotate_right()/]"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:OperationAction" name="RobotgatorRotate_leftAction" label="Rotate_left" precondition="[self.oclIsKindOf(Robotgator)/]">
+            <view name="views"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.oclAsType(Robotgator).rotate_left()/]"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:OperationAction" name="RobotgatorStop_moveAction" label="Stop_move" precondition="[self.oclIsKindOf(Robotgator)/]">
+            <view name="views"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.oclAsType(Robotgator).stop_move()/]"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:OperationAction" name="RobotgatorOpen_mouthAction" label="Open_mouth" precondition="[self.oclIsKindOf(Robotgator)/]">
+            <view name="views"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.oclAsType(Robotgator).open_mouth()/]"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:OperationAction" name="RobotgatorClose_mouthAction" label="Close_mouth" precondition="[self.oclIsKindOf(Robotgator)/]">
+            <view name="views"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.oclAsType(Robotgator).close_mouth()/]"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:OperationAction" name="RobotgatorRead_ultra_soundAction" label="Read_ultra_sound" precondition="[self.oclIsKindOf(Robotgator)/]">
+            <view name="views"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.oclAsType(Robotgator).read_ultra_sound()/]"/>
             </initialOperation>
           </ownedTools>
           <ownedTools xsi:type="tool_1:PopupMenu" name="CRUD operations" precondition="[self.oclIsKindOf(Entity)/]">

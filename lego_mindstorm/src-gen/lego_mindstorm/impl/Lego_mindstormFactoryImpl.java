@@ -66,6 +66,7 @@ public class Lego_mindstormFactoryImpl extends EFactoryImpl implements Lego_mind
 	public EObject create(EClass eClass) {
 		switch (eClass.getClassifierID()) {
 			case Lego_mindstormPackage.LEGO_MINDSTOM_NTX2: return createLego_mindstom_ntx2();
+			case Lego_mindstormPackage.ROBOTGATOR: return createRobotgator();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
 		}
@@ -79,6 +80,16 @@ public class Lego_mindstormFactoryImpl extends EFactoryImpl implements Lego_mind
 	public Lego_mindstom_ntx2 createLego_mindstom_ntx2() {
 		Lego_mindstom_ntx2Impl lego_mindstom_ntx2 = new Lego_mindstom_ntx2Impl();
 		return lego_mindstom_ntx2;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Robotgator createRobotgator() {
+		RobotgatorImpl robotgator = new RobotgatorImpl();
+		return robotgator;
 	}
 
 	/**

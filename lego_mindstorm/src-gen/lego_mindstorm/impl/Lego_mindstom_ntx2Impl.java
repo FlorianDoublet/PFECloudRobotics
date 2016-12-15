@@ -26,6 +26,7 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
 
 import org.occiware.clouddesigner.occi.impl.ResourceImpl;
 
+
 /**
  * <!-- begin-user-doc -->
  * An implementation of the model object '<em><b>Lego mindstom ntx2</b></em>'.
@@ -44,6 +45,8 @@ import org.occiware.clouddesigner.occi.impl.ResourceImpl;
  * @generated
  */
 public class Lego_mindstom_ntx2Impl extends ResourceImpl implements Lego_mindstom_ntx2 {
+	
+	
 	/**
 	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->

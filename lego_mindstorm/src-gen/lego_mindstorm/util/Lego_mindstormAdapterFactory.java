@@ -84,6 +84,10 @@ public class Lego_mindstormAdapterFactory extends AdapterFactoryImpl {
 				return createLego_mindstom_ntx2Adapter();
 			}
 			@Override
+			public Adapter caseRobotgator(Robotgator object) {
+				return createRobotgatorAdapter();
+			}
+			@Override
 			public Adapter caseEntity(Entity object) {
 				return createEntityAdapter();
 			}
@@ -122,6 +126,20 @@ public class Lego_mindstormAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createLego_mindstom_ntx2Adapter() {
+		return null;
+	}
+
+	/**
+	 * Creates a new adapter for an object of class '{@link lego_mindstorm.Robotgator <em>Robotgator</em>}'.
+	 * <!-- begin-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
+	 * @return the new adapter.
+	 * @see lego_mindstorm.Robotgator
+	 * @generated
+	 */
+	public Adapter createRobotgatorAdapter() {
 		return null;
 	}
 

@@ -1,4 +1,4 @@
-// Generated at Thu Nov 24 16:07:14 CET 2016 from platform:/resource/lego_mindstorm/model/lego_mindstorm.occie by org.occiware.clouddesigner.occi.gen.alloy
+// Generated at Thu Dec 15 14:28:16 CET 2016 from platform:/resource/lego_mindstorm/model/lego_mindstorm.occie by org.occiware.clouddesigner.occi.gen.alloy
 
 // ======================================================================
 //
@@ -29,7 +29,7 @@ one sig extension extends Extension {} {
     name = "lego_mindstorm"
     scheme = "http://occiware.org/lego_mindstorm#"
     import = core/extension
-    kinds = lego_mindstom_ntx2
+    kinds = lego_mindstom_ntx2 + robotgator
     no mixins
     no types
 }
@@ -182,6 +182,78 @@ sig Lego_mindstom_ntx2 extends core/Resource {
     duration : lone core/Number,
 } {
     hasKind[lego_mindstom_ntx2]
+}
+
+// ======================================================================
+//
+// OCCI kind 'http://occiware.org/lego_mindstorm#robotgator'
+//
+// ======================================================================
+
+one sig robotgator extends Kind {} {
+    term = "robotgator"
+    scheme = "http://occiware.org/lego_mindstorm#"
+    no title
+    parent = lego_mindstom_ntx2
+    attributes = robotgator_ultra_sound_value
+    actions = robotgator_open_mouth + robotgator_close_mouth + robotgator_read_ultra_sound
+    entities in Robotgator
+}
+
+//
+// OCCI attribute 'ultra_sound_value'
+//
+one sig robotgator_ultra_sound_value extends Attribute {} {
+    name = "ultra_sound_value"
+    type = core/Number_DataType
+    mutable = True
+    required = False
+    no default
+    no description
+    multiple_values = False
+}
+
+//
+// OCCI action 'http://occiware.org/lego_mindstorm/robotgator/action#open_mouth'
+//
+one sig robotgator_open_mouth extends Action {} {
+    term = "open_mouth"
+    scheme = "http://occiware.org/lego_mindstorm/robotgator/action#"
+    no title
+    no attributes
+}
+
+
+//
+// OCCI action 'http://occiware.org/lego_mindstorm/robotgator/action#close_mouth'
+//
+one sig robotgator_close_mouth extends Action {} {
+    term = "close_mouth"
+    scheme = "http://occiware.org/lego_mindstorm/robotgator/action#"
+    no title
+    no attributes
+}
+
+
+//
+// OCCI action 'http://occiware.org/lego_mindstorm/robotgator/action#read_ultra_sound'
+//
+one sig robotgator_read_ultra_sound extends Action {} {
+    term = "read_ultra_sound"
+    scheme = "http://occiware.org/lego_mindstorm/robotgator/action#"
+    no title
+    no attributes
+}
+
+
+// ======================================================================
+// Signature for Robotgator
+// ======================================================================
+
+sig Robotgator extends Lego_mindstom_ntx2 {
+    ultra_sound_value : lone core/Number,
+} {
+    hasKind[robotgator]
 }
 
 // ======================================================================

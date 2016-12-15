@@ -104,6 +104,29 @@ public class Lego_mindstormItemProviderAdapterFactory extends Lego_mindstormAdap
 	}
 
 	/**
+	 * This keeps track of the one adapter used for all {@link lego_mindstorm.Robotgator} instances.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected RobotgatorItemProvider robotgatorItemProvider;
+
+	/**
+	 * This creates an adapter for a {@link lego_mindstorm.Robotgator}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Adapter createRobotgatorAdapter() {
+		if (robotgatorItemProvider == null) {
+			robotgatorItemProvider = new RobotgatorItemProvider(this);
+		}
+
+		return robotgatorItemProvider;
+	}
+
+	/**
 	 * This returns the root adapter factory that contains this factory.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -203,6 +226,7 @@ public class Lego_mindstormItemProviderAdapterFactory extends Lego_mindstormAdap
 	 */
 	public void dispose() {
 		if (lego_mindstom_ntx2ItemProvider != null) lego_mindstom_ntx2ItemProvider.dispose();
+		if (robotgatorItemProvider != null) robotgatorItemProvider.dispose();
 	}
 
 }
