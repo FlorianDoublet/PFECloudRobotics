@@ -1,17 +1,17 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %pluginName
-Bundle-SymbolicName: turtlebot;singleton:=true
+Bundle-SymbolicName: turtlebot.edit;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-ClassPath: .
+Bundle-Activator: turtlebot.provider.TurtlebotEditPlugin$Implementation
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
-Export-Package: turtlebot,
- turtlebot.impl,
- turtlebot.util
-Bundle-ActivationPolicy: lazy
+Export-Package: turtlebot.provider
 Require-Bundle: org.eclipse.core.runtime,
- org.eclipse.emf.ecore;visibility:=reexport,
+ turtlebot;visibility:=reexport,
+ org.eclipse.emf.edit;visibility:=reexport,
  org.occiware.clouddesigner.occi;visibility:=reexport,
- org.occiware.clouddesigner.occi.emfgen.ui
+ org.occiware.clouddesigner.occi.edit;visibility:=reexport
+Bundle-ActivationPolicy: lazy

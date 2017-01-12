@@ -2,6 +2,11 @@
 <viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:occi="http://schemas.ogf.org/occi/core/ecore" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_WzMp8L1NEeaLhvT9s37LAw" selectedViews="_Y_LZUL1NEeaLhvT9s37LAw" version="11.0.1.201608181000">
   <semanticResources>model/turtlebot.occie</semanticResources>
   <semanticResources>http://schemas.ogf.org/occi/core</semanticResources>
+  <semanticResources>model/turtlebot.ecore</semanticResources>
+  <semanticResources>platform:/plugin/org.occiware.clouddesigner.occi/model/OCCI.ecore</semanticResources>
+  <semanticResources>http://www.eclipse.org/emf/2002/Ecore</semanticResources>
+  <semanticResources>model/turtlebot.genmodel</semanticResources>
+  <semanticResources>platform:/plugin/org.occiware.clouddesigner.occi/model/OCCI.genmodel</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_Y_LZUL1NEeaLhvT9s37LAw">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']"/>
     <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_ZzkDoL1NEeaLhvT9s37LAw" name="turtlebot">
@@ -100,21 +105,21 @@
           <children xmi:type="notation:Node" xmi:id="_mhAmoL1NEeaLhvT9s37LAw" type="2003" element="_mgQ_wL1NEeaLhvT9s37LAw">
             <children xmi:type="notation:Node" xmi:id="_mhAmo71NEeaLhvT9s37LAw" type="5007"/>
             <children xmi:type="notation:Node" xmi:id="_mhAmpL1NEeaLhvT9s37LAw" type="7004">
-              <children xmi:type="notation:Node" xmi:id="_sJvwwL1NEeaLhvT9s37LAw" type="3010" element="_sJJT0L1NEeaLhvT9s37LAw">
-                <styles xmi:type="notation:FontStyle" xmi:id="_sJvwwb1NEeaLhvT9s37LAw" fontName="Segoe UI" fontHeight="10"/>
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_sJvwwr1NEeaLhvT9s37LAw"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_yNaG4L1OEeaLhvT9s37LAw" type="3010" element="_yNDhkL1OEeaLhvT9s37LAw">
-                <styles xmi:type="notation:FontStyle" xmi:id="_yNaG4b1OEeaLhvT9s37LAw" fontName="Segoe UI" fontHeight="10"/>
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_yNaG4r1OEeaLhvT9s37LAw"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_9CHmoL1OEeaLhvT9s37LAw" type="3010" element="_9BxoYL1OEeaLhvT9s37LAw">
-                <styles xmi:type="notation:FontStyle" xmi:id="_9CHmob1OEeaLhvT9s37LAw" fontName="Segoe UI" fontHeight="10"/>
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_9CHmor1OEeaLhvT9s37LAw"/>
-              </children>
               <children xmi:type="notation:Node" xmi:id="_bGhOYL1PEeaLhvT9s37LAw" type="3010" element="_bGTzAL1PEeaLhvT9s37LAw">
                 <styles xmi:type="notation:FontStyle" xmi:id="_bGhOYb1PEeaLhvT9s37LAw" fontName="Segoe UI" fontHeight="10"/>
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_bGhOYr1PEeaLhvT9s37LAw"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_d8HpoNjGEeanH8GRlrQcjw" type="3010" element="_d7RVENjGEeanH8GRlrQcjw">
+                <styles xmi:type="notation:FontStyle" xmi:id="_d8HpodjGEeanH8GRlrQcjw" fontName="Segoe UI" fontHeight="10"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_d8HpotjGEeanH8GRlrQcjw"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_eYakENjGEeanH8GRlrQcjw" type="3010" element="_eYCwoNjGEeanH8GRlrQcjw">
+                <styles xmi:type="notation:FontStyle" xmi:id="_eYakEdjGEeanH8GRlrQcjw" fontName="Segoe UI" fontHeight="10"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_eYakEtjGEeanH8GRlrQcjw"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_fzez4NjGEeanH8GRlrQcjw" type="3010" element="_fzJcsNjGEeanH8GRlrQcjw">
+                <styles xmi:type="notation:FontStyle" xmi:id="_fzez4djGEeanH8GRlrQcjw" fontName="Segoe UI" fontHeight="10"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_fzez4tjGEeanH8GRlrQcjw"/>
               </children>
               <children xmi:type="notation:Node" xmi:id="_GUX1IL1PEeaLhvT9s37LAw" type="3010" element="_GTxYML1PEeaLhvT9s37LAw">
                 <styles xmi:type="notation:FontStyle" xmi:id="_GUX1Ib1PEeaLhvT9s37LAw" fontName="Segoe UI" fontHeight="10"/>
@@ -132,35 +137,15 @@
                 <styles xmi:type="notation:FontStyle" xmi:id="_VuHmUb1PEeaLhvT9s37LAw" fontName="Segoe UI" fontHeight="10"/>
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_VuHmUr1PEeaLhvT9s37LAw"/>
               </children>
-              <children xmi:type="notation:Node" xmi:id="_kWiBML1PEeaLhvT9s37LAw" type="3010" element="_kWPGQL1PEeaLhvT9s37LAw">
-                <styles xmi:type="notation:FontStyle" xmi:id="_kWiBMb1PEeaLhvT9s37LAw" fontName="Segoe UI" fontHeight="10"/>
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_kWiBMr1PEeaLhvT9s37LAw"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_oi4F0L1PEeaLhvT9s37LAw" type="3010" element="_oig5cL1PEeaLhvT9s37LAw">
-                <styles xmi:type="notation:FontStyle" xmi:id="_oi4F0b1PEeaLhvT9s37LAw" fontName="Segoe UI" fontHeight="10"/>
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_oi4F0r1PEeaLhvT9s37LAw"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_rCXnEL1PEeaLhvT9s37LAw" type="3010" element="_rCN2EL1PEeaLhvT9s37LAw">
-                <styles xmi:type="notation:FontStyle" xmi:id="_rCXnEb1PEeaLhvT9s37LAw" fontName="Segoe UI" fontHeight="10"/>
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_rCXnEr1PEeaLhvT9s37LAw"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_tRX1QL1PEeaLhvT9s37LAw" type="3010" element="_tRE6UL1PEeaLhvT9s37LAw">
-                <styles xmi:type="notation:FontStyle" xmi:id="_tRX1Qb1PEeaLhvT9s37LAw" fontName="Segoe UI" fontHeight="10"/>
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_tRX1Qr1PEeaLhvT9s37LAw"/>
-              </children>
               <children xmi:type="notation:Node" xmi:id="_BdABEL1QEeaLhvT9s37LAw" type="3010" element="_Bco0sL1QEeaLhvT9s37LAw">
                 <styles xmi:type="notation:FontStyle" xmi:id="_BdABEb1QEeaLhvT9s37LAw" fontName="Segoe UI" fontHeight="10"/>
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_BdABEr1QEeaLhvT9s37LAw"/>
-              </children>
-              <children xmi:type="notation:Node" xmi:id="_CgfeYL1QEeaLhvT9s37LAw" type="3010" element="_CgVtYL1QEeaLhvT9s37LAw">
-                <styles xmi:type="notation:FontStyle" xmi:id="_CgfeYb1QEeaLhvT9s37LAw" fontName="Segoe UI" fontHeight="10"/>
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_CgfeYr1QEeaLhvT9s37LAw"/>
               </children>
               <styles xmi:type="notation:SortingStyle" xmi:id="_mhAmpb1NEeaLhvT9s37LAw"/>
               <styles xmi:type="notation:FilteringStyle" xmi:id="_mhAmpr1NEeaLhvT9s37LAw"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_mhAmob1NEeaLhvT9s37LAw" fontName="Segoe UI" fontHeight="12" bold="true"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mhAmor1NEeaLhvT9s37LAw" x="320" y="245" width="197" height="308"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mhAmor1NEeaLhvT9s37LAw" x="460" y="275" width="197" height="193"/>
           </children>
           <styles xmi:type="notation:DiagramStyle" xmi:id="_Z27gsr1NEeaLhvT9s37LAw"/>
           <edges xmi:type="notation:Edge" xmi:id="_aGXD0L1NEeaLhvT9s37LAw" type="4001" element="_ZzkDvb1NEeaLhvT9s37LAw" source="_Z_0W971NEeaLhvT9s37LAw" target="_Z_0W8L1NEeaLhvT9s37LAw">
@@ -197,17 +182,17 @@
           </edges>
           <edges xmi:type="notation:Edge" xmi:id="_p_uJML1NEeaLhvT9s37LAw" type="4001" element="_p-8tIL1NEeaLhvT9s37LAw" source="_mhAmoL1NEeaLhvT9s37LAw" target="_Z_0W971NEeaLhvT9s37LAw">
             <children xmi:type="notation:Node" xmi:id="_p_uJNL1NEeaLhvT9s37LAw" type="6001">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p_uJNb1NEeaLhvT9s37LAw" x="-32" y="-10"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p_uJNb1NEeaLhvT9s37LAw" x="-13" y="-10"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_p_uwQL1NEeaLhvT9s37LAw" type="6002">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p_uwQb1NEeaLhvT9s37LAw" x="27" y="7"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p_uwQb1NEeaLhvT9s37LAw" x="12" y="6"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_p_uwQr1NEeaLhvT9s37LAw" type="6003">
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p_uwQ71NEeaLhvT9s37LAw" x="22" y="7"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p_uwQ71NEeaLhvT9s37LAw" x="9" y="4"/>
             </children>
             <styles xmi:type="notation:ConnectorStyle" xmi:id="_p_uJMb1NEeaLhvT9s37LAw"/>
             <styles xmi:type="notation:FontStyle" xmi:id="_p_uJMr1NEeaLhvT9s37LAw" fontName="Segoe UI" fontHeight="8"/>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_p_uJM71NEeaLhvT9s37LAw" points="[0, 0, -245, 62]$[245, -62, 0, 0]"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_p_uJM71NEeaLhvT9s37LAw" points="[0, 0, -105, 92]$[105, -92, 0, 0]"/>
             <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_p_uwRL1NEeaLhvT9s37LAw" id="(0.5384615384615384,0.0)"/>
             <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_p_uwRb1NEeaLhvT9s37LAw" id="(0.3651685393258427,1.0)"/>
           </edges>
@@ -353,34 +338,34 @@
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']"/>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_sJJT0L1NEeaLhvT9s37LAw" name="max_speeds: Number=">
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_bGTzAL1PEeaLhvT9s37LAw" name="duration: Number=1000">
           <target xmi:type="occi:Attribute" href="model/turtlebot.occie#//@kinds[term='turtlebot']/@attributes.0"/>
           <semanticElements xmi:type="occi:Attribute" href="model/turtlebot.occie#//@kinds[term='turtlebot']/@attributes.0"/>
-          <ownedStyle xmi:type="diagram:Square" xmi:id="_sJcOwL1NEeaLhvT9s37LAw" labelSize="10" labelAlignment="LEFT" labelPosition="node">
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_bGTzAb1PEeaLhvT9s37LAw" labelSize="10" labelAlignment="LEFT" labelPosition="node">
             <description xmi:type="style:SquareDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAttribute']/@conditionnalStyles.2/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAttribute']"/>
         </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_yNDhkL1OEeaLhvT9s37LAw" name="linear_speed: Number">
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_d7RVENjGEeanH8GRlrQcjw" name="user: String">
           <target xmi:type="occi:Attribute" href="model/turtlebot.occie#//@kinds[term='turtlebot']/@attributes.1"/>
           <semanticElements xmi:type="occi:Attribute" href="model/turtlebot.occie#//@kinds[term='turtlebot']/@attributes.1"/>
-          <ownedStyle xmi:type="diagram:Square" xmi:id="_yNMrgL1OEeaLhvT9s37LAw" labelSize="10" labelAlignment="LEFT" labelPosition="node">
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_d7nTUNjGEeanH8GRlrQcjw" labelSize="10" labelAlignment="LEFT" labelPosition="node">
             <description xmi:type="style:SquareDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAttribute']/@conditionnalStyles.2/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAttribute']"/>
         </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_9BxoYL1OEeaLhvT9s37LAw" name="angular_speed: Number">
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_eYCwoNjGEeanH8GRlrQcjw" name="ip_address: String">
           <target xmi:type="occi:Attribute" href="model/turtlebot.occie#//@kinds[term='turtlebot']/@attributes.2"/>
           <semanticElements xmi:type="occi:Attribute" href="model/turtlebot.occie#//@kinds[term='turtlebot']/@attributes.2"/>
-          <ownedStyle xmi:type="diagram:Square" xmi:id="_9BxoYb1OEeaLhvT9s37LAw" labelSize="10" labelAlignment="LEFT" labelPosition="node">
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_eYD-wNjGEeanH8GRlrQcjw" labelSize="10" labelAlignment="LEFT" labelPosition="node">
             <description xmi:type="style:SquareDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAttribute']/@conditionnalStyles.2/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAttribute']"/>
         </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_bGTzAL1PEeaLhvT9s37LAw" name="duration: Number=1000">
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_fzJcsNjGEeanH8GRlrQcjw" name="password: String">
           <target xmi:type="occi:Attribute" href="model/turtlebot.occie#//@kinds[term='turtlebot']/@attributes.3"/>
           <semanticElements xmi:type="occi:Attribute" href="model/turtlebot.occie#//@kinds[term='turtlebot']/@attributes.3"/>
-          <ownedStyle xmi:type="diagram:Square" xmi:id="_bGTzAb1PEeaLhvT9s37LAw" labelSize="10" labelAlignment="LEFT" labelPosition="node">
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_fzKq0NjGEeanH8GRlrQcjw" labelSize="10" labelAlignment="LEFT" labelPosition="node">
             <description xmi:type="style:SquareDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAttribute']/@conditionnalStyles.2/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAttribute']"/>
@@ -401,7 +386,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAction']"/>
         </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_UPUtEL1PEeaLhvT9s37LAw" name="move_left()">
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_UPUtEL1PEeaLhvT9s37LAw" name="turn_left()">
           <target xmi:type="occi:Action" href="model/turtlebot.occie#//@kinds[term='turtlebot']/@actions.2"/>
           <semanticElements xmi:type="occi:Action" href="model/turtlebot.occie#//@kinds[term='turtlebot']/@actions.2"/>
           <ownedStyle xmi:type="diagram:Square" xmi:id="_UPUtEb1PEeaLhvT9s37LAw" labelSize="10" labelAlignment="LEFT" labelPosition="node">
@@ -409,7 +394,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAction']"/>
         </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_VtzdQL1PEeaLhvT9s37LAw" name="move_right()">
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_VtzdQL1PEeaLhvT9s37LAw" name="turn_right()">
           <target xmi:type="occi:Action" href="model/turtlebot.occie#//@kinds[term='turtlebot']/@actions.3"/>
           <semanticElements xmi:type="occi:Action" href="model/turtlebot.occie#//@kinds[term='turtlebot']/@actions.3"/>
           <ownedStyle xmi:type="diagram:Square" xmi:id="_VtzdQb1PEeaLhvT9s37LAw" labelSize="10" labelAlignment="LEFT" labelPosition="node">
@@ -417,50 +402,10 @@
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAction']"/>
         </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_kWPGQL1PEeaLhvT9s37LAw" name="increase_linear_speed()">
+        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_Bco0sL1QEeaLhvT9s37LAw" name="stop()">
           <target xmi:type="occi:Action" href="model/turtlebot.occie#//@kinds[term='turtlebot']/@actions.4"/>
           <semanticElements xmi:type="occi:Action" href="model/turtlebot.occie#//@kinds[term='turtlebot']/@actions.4"/>
-          <ownedStyle xmi:type="diagram:Square" xmi:id="_kWY3QL1PEeaLhvT9s37LAw" labelSize="10" labelAlignment="LEFT" labelPosition="node">
-            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAction']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAction']"/>
-        </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_oig5cL1PEeaLhvT9s37LAw" name="decrease_linear_speed()">
-          <target xmi:type="occi:Action" href="model/turtlebot.occie#//@kinds[term='turtlebot']/@actions.5"/>
-          <semanticElements xmi:type="occi:Action" href="model/turtlebot.occie#//@kinds[term='turtlebot']/@actions.5"/>
-          <ownedStyle xmi:type="diagram:Square" xmi:id="_oiqqcL1PEeaLhvT9s37LAw" labelSize="10" labelAlignment="LEFT" labelPosition="node">
-            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAction']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAction']"/>
-        </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_rCN2EL1PEeaLhvT9s37LAw" name="inrease_angular_speed()">
-          <target xmi:type="occi:Action" href="model/turtlebot.occie#//@kinds[term='turtlebot']/@actions.6"/>
-          <semanticElements xmi:type="occi:Action" href="model/turtlebot.occie#//@kinds[term='turtlebot']/@actions.6"/>
-          <ownedStyle xmi:type="diagram:Square" xmi:id="_rCN2Eb1PEeaLhvT9s37LAw" labelSize="10" labelAlignment="LEFT" labelPosition="node">
-            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAction']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAction']"/>
-        </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_tRE6UL1PEeaLhvT9s37LAw" name="decrease_angular_speed()">
-          <target xmi:type="occi:Action" href="model/turtlebot.occie#//@kinds[term='turtlebot']/@actions.7"/>
-          <semanticElements xmi:type="occi:Action" href="model/turtlebot.occie#//@kinds[term='turtlebot']/@actions.7"/>
-          <ownedStyle xmi:type="diagram:Square" xmi:id="_tRE6Ub1PEeaLhvT9s37LAw" labelSize="10" labelAlignment="LEFT" labelPosition="node">
-            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAction']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAction']"/>
-        </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_Bco0sL1QEeaLhvT9s37LAw" name="stop()">
-          <target xmi:type="occi:Action" href="model/turtlebot.occie#//@kinds[term='turtlebot']/@actions.8"/>
-          <semanticElements xmi:type="occi:Action" href="model/turtlebot.occie#//@kinds[term='turtlebot']/@actions.8"/>
           <ownedStyle xmi:type="diagram:Square" xmi:id="_Bco0sb1QEeaLhvT9s37LAw" labelSize="10" labelAlignment="LEFT" labelPosition="node">
-            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAction']/@style"/>
-          </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAction']"/>
-        </ownedElements>
-        <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_CgVtYL1QEeaLhvT9s37LAw" name="stop_smoothly()">
-          <target xmi:type="occi:Action" href="model/turtlebot.occie#//@kinds[term='turtlebot']/@actions.9"/>
-          <semanticElements xmi:type="occi:Action" href="model/turtlebot.occie#//@kinds[term='turtlebot']/@actions.9"/>
-          <ownedStyle xmi:type="diagram:Square" xmi:id="_CgVtYb1QEeaLhvT9s37LAw" labelSize="10" labelAlignment="LEFT" labelPosition="node">
             <description xmi:type="style:SquareDescription" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAction']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.occiware.clouddesigner.occi.design/description/OCCIware.odesign#//@ownedViewpoints[name='OCCI%20Extension']/@ownedRepresentations[name='Extension%20diagram']/@defaultLayer/@containerMappings[name='KindContainer']/@subNodeMappings[name='KindAction']"/>

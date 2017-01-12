@@ -1,0 +1,38 @@
+h1. 
+
+| *Name* | turtlebot |
+| *Scheme* | http://occiware.org/turtlebot# |
+
+Imported OCCI Extensions:
+
+| *Name* | *Scheme* |
+| <a href="core.textile">core</a> | http://schemas.ogf.org/occi/core# |
+
+h1. Kinds
+
+h2. Kind turtlebot
+
+| *Term* | turtlebot |
+| *Scheme* | http://occiware.org/turtlebot# |
+| *Title* |  |
+| *Parent* | <a href="core.textile#kind-resource">http://schemas.ogf.org/occi/core#resource</a> |
+
+Attributes of turtlebot are:
+
+| *Attribute* | *Type* | *Required* | *Mutable* | *Default* | *Description* |
+| duration | <a href="core.textile#datatype-number">Number</a> | false | true | 1000 | Duration of a moving commande (forward or backward) |
+| user | <a href="core.textile#datatype-string">String</a> | false | true |  |  |
+| ip_address | <a href="core.textile#datatype-string">String</a> | false | true |  |  |
+| password | <a href="core.textile#datatype-string">String</a> | false | true |  |  |
+
+Actions of turtlebot are:
+
+| *Term* | *Scheme* | *Attributes* | *Title* |
+| move_forward | http://occiware.org/turtlebot/turtlebot/action# |  | The turtlebot move forward |
+| move_backward | http://occiware.org/turtlebot/turtlebot/action# |  | The turtlebot move backward |
+| turn_left | http://occiware.org/turtlebot/turtlebot/action# |  | The turtlebot turn left |
+| turn_right | http://occiware.org/turtlebot/turtlebot/action# |  | The turtlebot turn right |
+| stop | http://occiware.org/turtlebot/turtlebot/action# |  | Force the turtlebot to stop |
+
+
+Generated at Thu Jan 12 14:53:22 CET 2017 from platform:/resource/turtlebot/model/turtlebot.occie by org.occiware.clouddesigner.occi.gen.doc

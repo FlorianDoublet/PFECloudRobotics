@@ -49,4 +49,11 @@
          </action>
       </objectContribution>
    </extension>
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated turtlebot -->
+      <package
+            uri="http://occiware.org/turtlebot/ecore"
+            class="turtlebot.TurtlebotPackage"/>
+   </extension>
+
 </plugin>

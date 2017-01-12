@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="turtlebot" nsURI="http://occiware.org/turtlebot/ecore" nsPrefix="turtlebot">
+  <eClassifiers xsi:type="ecore:EClass" name="Turtlebot" eSuperTypes="platform:/plugin/org.occiware.clouddesigner.occi/model/OCCI.ecore#//Resource">
+    <eAnnotations source="OCCIE2Ecore">
+      <details key="title"/>
+    </eAnnotations>
+    <eOperations name="move_forward">
+      <eAnnotations source="OCCIE2Ecore">
+        <details key="title" value="The turtlebot move forward"/>
+      </eAnnotations>
+    </eOperations>
+    <eOperations name="move_backward">
+      <eAnnotations source="OCCIE2Ecore">
+        <details key="title" value="The turtlebot move backward"/>
+      </eAnnotations>
+    </eOperations>
+    <eOperations name="turn_left">
+      <eAnnotations source="OCCIE2Ecore">
+        <details key="title" value="The turtlebot turn left"/>
+      </eAnnotations>
+    </eOperations>
+    <eOperations name="turn_right">
+      <eAnnotations source="OCCIE2Ecore">
+        <details key="title" value="The turtlebot turn right"/>
+      </eAnnotations>
+    </eOperations>
+    <eOperations name="stop">
+      <eAnnotations source="OCCIE2Ecore">
+        <details key="title" value="Force the turtlebot to stop"/>
+      </eAnnotations>
+    </eOperations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="duration" eType="ecore:EDataType platform:/plugin/org.occiware.clouddesigner.occi/model/OCCI.ecore#//Number"
+        defaultValueLiteral="1000">
+      <eAnnotations source="OCCIE2Ecore">
+        <details key="description" value="Duration of a moving commande (forward or backward)"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="user" eType="ecore:EDataType platform:/plugin/org.occiware.clouddesigner.occi/model/OCCI.ecore#//String">
+      <eAnnotations source="OCCIE2Ecore">
+        <details key="description"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ip_address" eType="ecore:EDataType platform:/plugin/org.occiware.clouddesigner.occi/model/OCCI.ecore#//String">
+      <eAnnotations source="OCCIE2Ecore">
+        <details key="description"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="password" eType="ecore:EDataType platform:/plugin/org.occiware.clouddesigner.occi/model/OCCI.ecore#//String">
+      <eAnnotations source="OCCIE2Ecore">
+        <details key="description"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+  </eClassifiers>
+</ecore:EPackage>

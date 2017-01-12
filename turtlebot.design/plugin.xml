@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+  <extension point="org.eclipse.sirius.componentization">
+    <component class="turtlebot.design.Activator"
+               id="turtlebot.design"
+	       name="turtlebot">
+    </component>
+  </extension>
+   <!-- Popup menu for creating a turtlebot configuration file. -->
+   <extension point="org.eclipse.ui.newWizards">
+      <category
+            id="org.occiware.clouddesigner.category.ID"
+            name="Cloud Designer"/>
+      <wizard
+            category="org.occiware.clouddesigner.category.ID"
+            class="turtlebot.design.wizard.NewConfigurationWizard"
+            icon="platform:/plugin/org.occiware.clouddesigner.occi.edit/icons/full/obj16/Configuration.gif"
+            id="turtlebot.design.wizard.NewConfigurationWizard"
+            name="turtlebot Configuration File"/>
+   </extension>
+</plugin>

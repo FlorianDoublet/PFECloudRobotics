@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated at Thu Jan 12 14:53:28 CET 2017 from platform:/resource/turtlebot/model/turtlebot.occie by org.occiware.clouddesigner.occi.gen.xml -->
+<occi:extension xmlns:occi="http://schemas.ogf.org/occi"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://schemas.ogf.org/occi occi.xsd"
+    name="turtlebot"
+    scheme="http://occiware.org/turtlebot#"
+    version="1"
+    status="stable">
+
+  <!-- Kind:  -->
+  <occi:kind term="turtlebot" scheme="http://occiware.org/turtlebot#" title="">
+    <occi:parent term="resource" scheme="http://schemas.ogf.org/occi/core#"/>
+    <occi:attribute name="duration" use="optional" default="1000" type="xs:integer" title="Duration of a moving commande (forward or backward)"/>
+    <occi:attribute name="user" use="optional" type="xs:string" title=""/>
+    <occi:attribute name="ip_address" use="optional" type="xs:string" title=""/>
+    <occi:attribute name="password" use="optional" type="xs:string" title=""/>
+    <occi:action term="move_forward" scheme="http://occiware.org/turtlebot/turtlebot/action#" title="The turtlebot move forward">
+    </occi:action>
+    <occi:action term="move_backward" scheme="http://occiware.org/turtlebot/turtlebot/action#" title="The turtlebot move backward">
+    </occi:action>
+    <occi:action term="turn_left" scheme="http://occiware.org/turtlebot/turtlebot/action#" title="The turtlebot turn left">
+    </occi:action>
+    <occi:action term="turn_right" scheme="http://occiware.org/turtlebot/turtlebot/action#" title="The turtlebot turn right">
+    </occi:action>
+    <occi:action term="stop" scheme="http://occiware.org/turtlebot/turtlebot/action#" title="Force the turtlebot to stop">
+    </occi:action>
+  </occi:kind>
+
+</occi:extension>
